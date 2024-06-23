@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Date Picker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .date-input {
+            width: 100px;
+            height: 100px;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 16px;
+            text-align: center;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .date-input:hover {
+            background-color: black;
+            color: white;
+        }
+        .date-input.selected {
+            background-color: coral;
+            color: white;
+        }
+        .calendar {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .calendar table {
+            width: 100%;
+        }
+        .calendar th, .calendar td {
+            text-align: center;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .calendar th {
+            background-color: #f0f0f0;
+        }
+        .calendar td:hover {
+            background-color: black;
+            color: white;
+        }
+        .calendar td.selected {
+            background-color: coral;
+            color: white;
+        }
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .calendar-header div {
+            display: flex;
+            align-items: center;
+        }
+        .calendar-header span {
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .arrow {
+            cursor: pointer;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="order-period-start" class="date-input" readonly />
+    <div id="calendar-start" class="calendar"></div>
+
+    <input type="text" id="order-period-end" class="date-input" readonly />
+    <div id="calendar-end" class="calendar"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateInputs = document.querySelectorAll('.date-input');
+            const calendars = document.querySelectorAll('.calendar');
+            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            dateInputs.forEach((input, index) => {
+                input.addEventListener('click', function () {
+                    const calendar = calendars[index];
+                    calendar.style.display = 'block';
+                    const rect = input.getBoundingClientRect();
+                    calendar.style.top = rect.bottom + window.scrollY + 'px';
+                    calendar.style.left = rect.left + window.scrollX + 'px';
+                });
+
+                input.addEventListener('blur', function () {
+                    setTimeout(() => calendars[index].style.display = 'none', 200);
+                });
+            });
+
+            calendars.forEach(calendar => {
+                calendar.addEventListener('mousedown', function (event) {
+                    event.preventDefault();
+                });
+            });
+
+            function createCalendar(calendar) {
+                const now = new Date();
+                let month = now.getMonth();
+                let year = now.getFullYear();
+
+                const header = document.createElement('div');
+                header.className = 'calendar-header';
+
+                const yearControl = document.createElement('div');
+                const yearUp = document.createElement('span');
+                yearUp.className = 'arrow';
+                yearUp.textContent = '▲';
+                const yearDown = document.createElement('span');
+                yearDown.className = 'arrow';
+                yearDown.textContent = '▼';
+                const yearDisplay = document.createElement('span');
+                yearDisplay.textContent = year;
+                yearControl.appendChild(yearUp);
+                yearControl.appendChild(yearDisplay);
+                yearControl.appendChild(yearDown);
+
+                const monthControl = document.createElement('div');
+                const monthPrev = document.createElement('span');
+                monthPrev.className = 'arrow';
+                monthPrev.textContent = '◀';
+                const monthNext = document.createElement('span');
+                monthNext.className = 'arrow';
+                monthNext.textContent = '▶';
+                const monthDisplay = document.createElement('span');
+                monthDisplay.textContent = monthNames[month];
+                monthControl.appendChild(monthPrev);
+                monthControl.appendChild(monthDisplay);
+                monthControl.appendChild(monthNext);
+
+                header.appendChild(yearControl);
+                header.appendChild(monthControl);
+                calendar.appendChild(header);
+
+                function renderCalendar() {
+                    calendar.querySelectorAll('table').forEach(table => table.remove());
+
+                    const daysInMonth = new Date(year, month + 1, 0).getDate();
+                    let firstDay = new Date(year, month, 1).getDay();
+                    if (firstDay === 0) firstDay = 7;
+
+                    const table = document.createElement('table');
+                    const tableHeader = table.createTHead();
+                    const headerRow = tableHeader.insertRow();
+                    ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'].forEach(day => {
+                        const cell = headerRow.insertCell();
+                        cell.textContent = day;
+                    });
+
+                    const body = table.createTBody();
+                    let row = body.insertRow();
+                    for (let i = 1; i < firstDay; i++) {
+                        row.insertCell();
+                    }
+                    for (let day = 1; day <= daysInMonth; day++) {
+                        if (row.cells.length === 7) row = body.insertRow();
+                        const cell = row.insertCell();
+                        cell.textContent = day;
+                        cell.addEventListener('click', function () {
+                            const input = calendar.previousElementSibling;
+                            input.value = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                            input.classList.add('selected');
+                            calendar.querySelectorAll('td').forEach(td => td.classList.remove('selected'));
+                            cell.classList.add('selected');
+                            calendar.style.display = 'none';
+                        });
+                    }
+                    calendar.appendChild(table);
+                    yearDisplay.textContent = year;
+                    monthDisplay.textContent = monthNames[month];
+                }
+
+                yearUp.addEventListener('click', function () {
+                    year++;
+                    renderCalendar();
+                });
+
+                yearDown.addEventListener('click', function () {
+                    year--;
+                    renderCalendar();
+                });
+
+                monthPrev.addEventListener('click', function () {
+                    month--;
+                    if (month < 0) {
+                        month = 11;
+                        year--;
+                    }
+                    renderCalendar();
+                });
+
+                monthNext.addEventListener('click', function () {
+                    month++;
+                    if (month > 11) {
+                        month = 0;
+                        year++;
+                    }
+                    renderCalendar();
+                });
+
+                renderCalendar();
+            }
+
+            calendars.forEach(createCalendar);
+        });
+    </script>
+</body>
+</html>
