@@ -1,0 +1,73 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Formular", sans-serif;
+  --third-family: "Aeonik Pro", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+header {
+  padding: 40px;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: 70px;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.nav-list > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-right-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+}
+.header-right-white {
+  border-radius: 100px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.shrink {
+  flex-shrink: 0;
+}
+
+.header-right__city {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #000;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.header-right__phone {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.link-format {
+  text-decoration: none;
+}
