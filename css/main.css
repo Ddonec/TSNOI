@@ -245,6 +245,11 @@ main {
   padding: 54px 42px;
   border-radius: 30px;
 }
+.advantages__big-blue-card,
+.advantages__big-white-card {
+  overflow: hidden;
+  position: relative;
+}
 .big-blue-card__title {
   font-family: var(--second-family);
   font-weight: 500;
@@ -294,4 +299,11 @@ main {
   padding: 15px 30px;
   width: fit-content;
   margin-top: 36px;
+}
+
+.big-blue-card__image,
+.big-white-card__image {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
 }
