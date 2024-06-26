@@ -363,4 +363,27 @@
     height: fit-content;
     margin: 0;
   }
+  .arrows-for-ways-second-container {
+    justify-content: end;
+  }
+  .ways-second-card {
+    margin-top: 50px;
+  }
+  .ways-card__title {
+    font-size: 25px;
+  }
+  .ways-card__subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .ways-second-card {
+    width: calc(100vw - 30px);
+  }
+  .ways-card__img img {
+    width: calc(100vw - 70px);
+  }
+  .ways-second-card {
+    padding: 20px 24px 40px;
+  }
 }

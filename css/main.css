@@ -1003,3 +1003,69 @@ footer {
   right: 23%;
   z-index: 1;
 }
+
+.ways-second-overflow-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+.ways-second-container {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease;
+  cursor: grab;
+}
+
+.ways-second-overflow-container::-webkit-scrollbar {
+  display: none;
+}
+.ways-second-card {
+  border-radius: 30px;
+  padding: 20px 37px 40px;
+  width: 438px;
+  height: 718px;
+  background: #fff;
+}
+.ways-card__img {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ways-card__title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+.ways-card__subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #40444e;
+  margin-top: 15px;
+}
+.arrows-for-ways-second-container {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 70px;
+}
+.arrows-for-ways__left,
+.arrows-for-ways__right {
+  width: 61px;
+  height: 61px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrows-for-ways__left:hover,
+.arrows-for-ways__right:hover {
+  background: #e9e9e9;
+}
