@@ -774,7 +774,9 @@ footer {
   flex-direction: column;
   gap: 60px;
 }
-
+.gap30-section {
+  gap: 30px;
+}
 .white-way-block {
   border-radius: 30px;
   padding: 45px 48px;
@@ -1068,4 +1070,119 @@ footer {
 .arrows-for-ways__left:hover,
 .arrows-for-ways__right:hover {
   background: #e9e9e9;
+}
+
+.way-of-learning-container {
+  display: flex;
+  justify-content: space-between;
+}
+.way-of-learning__big-card {
+  padding: 40px 42px 30px;
+  border-radius: 30px;
+  background: #fff;
+  width: calc(50% - 16px);
+}
+.learning-big-card__grey {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+  width: fit-content;
+  border-radius: 100px;
+  padding: 15px 30px;
+  background: #f4f4f4;
+}
+.learning-big-card__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+  margin: 40px 0 20px;
+}
+.learning-big-card__subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.learning-big-card__tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 40px 0;
+}
+.learning-big-card__tab {
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  padding: 15px 30px;
+
+  background: #fff;
+  width: fit-content;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
+}
+.learning-big-card__tab:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
+.learning-big-card__button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+
+  border-radius: 15px;
+  padding: 18px 30px;
+
+  background: #003acb;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.learning-big-card__button:hover {
+  background: #000;
+  cursor: pointer;
+}
+
+.way-of-learnong-small-comtainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+.way-of-learning__small-card {
+  border-radius: 30px;
+  padding: 40px 32px;
+  width: calc(25% - 90px / 4);
+  min-width: 438px;
+  height: 334px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.way-of-learning__small_title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+}
+.way-of-learning__small_subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.way-of-learning__small_btn {
 }

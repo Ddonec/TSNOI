@@ -185,6 +185,19 @@
   .blue-bg-main-text-ways {
     margin: 50px 25px;
   }
+  .learning-big-card__grey {
+    font-size: 14px;
+  }
+  .learning-big-card__title {
+    font-size: 28px;
+    margin: 30px 0 16px;
+  }
+  .learning-big-card__subtitle {
+    font-size: 20px;
+  }
+  .learning-big-card__tab {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -268,6 +281,26 @@
   }
   .white-card-shop__buttons {
     flex-wrap: wrap;
+  }
+  .way-of-learning-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .way-of-learning__big-card {
+    width: 100%;
+  }
+  .way-of-learning__small-card {
+    width: 100%;
+    min-width: unset;
+  }
+  .way-of-learning__small_title {
+    font-size: 26px;
+  }
+  .way-of-learning__small_subtitle {
+    font-size: 16px;
+  }
+  .way-of-learning__big-card {
+    padding: 40px 24px 30px;
   }
 }
 
@@ -385,5 +418,9 @@
   }
   .ways-second-card {
     padding: 20px 24px 40px;
+  }
+  .learning-big-card__button,
+  .learning-big-card__button {
+    width: 100%;
   }
 }
