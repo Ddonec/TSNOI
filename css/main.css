@@ -154,6 +154,9 @@ footer {
 
   position: relative;
 }
+.first-block-blue-bg-shop {
+  margin: 30px 0 70px;
+}
 .first-block-blue-bg-overflow {
   width: 100%;
   height: 100%;
@@ -825,4 +828,127 @@ footer {
 }
 .white-way-block__info a {
   text-decoration: none;
+}
+.shop-img-2 {
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.shop-img-3 {
+  width: 300px;
+  top: 200px;
+  right: 24%;
+  z-index: 2;
+}
+.shop-img-bg {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  height: 700px;
+}
+
+.tabs-shop {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tab-shop {
+  border: 1px solid #a4a5a8;
+  border-radius: 100px;
+  padding: 15px 40px;
+  flex-shrink: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+}
+.tab-shop.active {
+  background: #000;
+  color: #fff;
+}
+.white-cards-shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+.white-card-shop {
+  border-radius: 30px;
+  padding: 40px 42px;
+  background: #fff;
+  max-width: 594px;
+  width: calc((100% / 3) - 20px);
+  position: relative;
+}
+.white-card-shop__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+  margin: 135px 0 20px;
+}
+.white-card-shop__subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #40444e;
+}
+.white-card-shop__price {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #40444e;
+  margin: 110px 0 40px;
+}
+.white-card-shop__buttons {
+  display: flex;
+  gap: 20px;
+}
+.white-card-shop__buttons_about {
+  border: 1px solid #003acb;
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: 196px;
+  height: 66px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+}
+.white-card-shop__buttons_buy {
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: 168px;
+  height: 67px;
+  background: #003acb;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+}
+.shop-new-absolute {
+  background: linear-gradient(321deg, #087dff 0%, #060c47 100%);
+  border-radius: 100px 0 0 100px;
+  padding: 15px 30px;
+  width: 137px;
+  height: 55px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
 }
