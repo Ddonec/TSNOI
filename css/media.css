@@ -53,7 +53,14 @@
   .dottet-list-footer {
     width: 100%;
   }
+  .ways-img-bg {
+    bottom: -20%;
+  }
+  .ways-img-2 {
+    display: none;
+  }
 }
+
 @media (max-width: 1500px) {
   .white-card-shop {
     width: unset;
@@ -168,6 +175,16 @@
   .shop-img-bg {
     height: unset;
   }
+  .ways-img-bg {
+    display: none;
+  }
+  .ways-img-3,
+  .ways-img-1 {
+    display: none;
+  }
+  .blue-bg-main-text-ways {
+    margin: 50px 25px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -259,6 +276,9 @@
   footer {
     padding: 40px 15px;
   }
+  header {
+    padding-top: 17px;
+  }
   main {
     margin: 0 15px;
   }
@@ -338,5 +358,9 @@
   }
   .shop-new-absolute {
     top: 300px;
+  }
+  .first-block-blue-bg-ways {
+    height: fit-content;
+    margin: 0;
   }
 }
