@@ -48,11 +48,26 @@ footer {
   align-items: center;
   gap: 10px;
 }
+.nav-list a {
+  color: #000;
+  text-decoration: none;
+}
+.nav-list a:hover,
+.header-right a:hover {
+  color: #003acb;
+}
+.header-right {
+  z-index: 2;
+}
 .header-right-container {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-left: auto;
+}
+.header-right-white:hover {
+  background: #e9e9e9;
+  cursor: pointer;
 }
 .header-right-white {
   border-radius: 100px;
@@ -68,11 +83,28 @@ footer {
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #000;
+  z-index: 2;
 }
 .shrink {
   flex-shrink: 0;
 }
 
+.burger-button {
+  width: 46px;
+  height: 27px;
+}
+.burger-span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #0966a4;
+}
+.burger-menu-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .header-right__city {
   font-family: var(--second-family);
   font-weight: 400;
@@ -243,7 +275,7 @@ footer {
   height: 2210px;
 }
 .advantages-cards-container > div {
-  width: calc((100% / 3) - 10px);
+  width: calc((100% / 3) - 20px);
 }
 .advantages-cards-container > div:nth-child(5) {
   margin-top: 120px;
@@ -322,7 +354,7 @@ footer {
 }
 .third-s-title-box__mounth {
   border-radius: 100px;
-  padding: 20px 30px;
+  padding: 15px 30px;
   background: #fff;
   width: fit-content;
   align-items: center;
@@ -474,6 +506,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.social-webs-footer__square:hover {
+  background: #003acb;
+}
 .button-contact-us {
   border-radius: 15px;
   padding: 18px 30px;
@@ -487,6 +522,10 @@ footer {
   line-height: 130%;
   text-align: center;
   color: #fff;
+}
+.button-contact-us:hover {
+  background: #000;
+  cursor: pointer;
 }
 .contacts-footer {
   display: flex;
@@ -587,4 +626,55 @@ footer {
 .footer-column-2,
 .footer-column-3 {
   width: 18%;
+}
+
+.burger-menu {
+  cursor: pointer;
+  display: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 46px;
+  height: 3px;
+  background-color: #0966a4;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 3px;
+}
+
+.menu {
+  display: none;
+}
+
+.burger-menu.change .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.change .bar2 {
+  opacity: 0;
+}
+
+.burger-menu.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.burger-menu.change + .menu {
+  display: block;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 10px 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
 }
