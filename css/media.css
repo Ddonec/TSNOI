@@ -261,7 +261,8 @@
   .white-calendar__list {
     gap: 24px;
   }
-  .first-block-blue-bg {
+  .first-block-blue-bg,
+  .default-block-blue-bg {
     height: 500px;
   }
   .first-block-blue-bg-overflow {
@@ -269,5 +270,21 @@
   }
   .blue-bg-main-text {
     margin-top: 90px;
+  }
+  .second-fly-element-way,
+  .third-fly-element-way {
+    display: none;
+  }
+  .first-fly-element-way {
+    scale: 0.7;
+    bottom: -100px;
+    right: -150px;
+  }
+  .blue-bg-main__button {
+    font-size: 14px;
+    margin: 0;
+  }
+  .blue-bg-main-text-way {
+    margin:24px;
   }
 }
