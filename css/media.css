@@ -302,6 +302,13 @@
   .way-of-learning__big-card {
     padding: 40px 24px 30px;
   }
+  .middle-section-ways__title {
+    font-size: 28px;
+  }
+  .middle-section-ways__button,
+  .middle-section-ways__title-button {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 700px) {

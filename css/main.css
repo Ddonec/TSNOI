@@ -1186,3 +1186,66 @@ footer {
 }
 .way-of-learning__small_btn {
 }
+
+.middle-section-ways {
+  max-width: 900px;
+  margin: 60px auto;
+}
+.middle-section-ways__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+.middle-section-ways__button-container {
+  background: #fff;
+  border-radius: 100px;
+  display: flex;
+  width: fit-content;
+  margin: 26px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-section-ways__title-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+
+  border-radius: 100px;
+  padding: 20px 30px;
+  max-width: 354px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.middle-section-ways__button {
+  border-radius: 100px;
+  padding: 20px 30px;
+  max-width: 412px;
+  background: #003acb;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.middle-section-ways__button:hover {
+  background: #000;
+  cursor: pointer;
+}
+
+.middle-section-ways__button-container {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
