@@ -484,6 +484,19 @@
     aspect-ratio: 0.71;
     height: unset;
   }
+  .partners-way-card {
+    width: 140px;
+    height: 100px;
+  }
+  .partners-way-image {
+    width: 90%;
+  }
+  .partners-ways-arrows {
+    order: 1;
+  }
+  footer {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {

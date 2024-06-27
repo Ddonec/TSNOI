@@ -763,6 +763,125 @@
           alt=""
         />
       </section>
+      <section class="partners-section-way">
+        <h2 class="standart_title">Организаторы и партнеры</h2>
+        <div class="partners-ways-arrows">
+          <div class="partners-ways-arrows__prew">
+            <svg
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.2559 19.0054L8.25586 12.0054L15.2559 5.00537"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="partners-ways-arrows__next">
+            <svg
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.25586 5.00537L16.2559 12.0054L9.25586 19.0054"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="partners-way-overflow-box">
+          <div class="partners-way-box">
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-1.png"
+                alt=""
+              />
+            </div>
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-2.png"
+                alt=""
+              />
+            </div>
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-3.png"
+                alt=""
+              />
+            </div>
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-4.png"
+                alt=""
+              />
+            </div>
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-5.png"
+                alt=""
+              />
+            </div>
+            <div class="partners-way-card">
+              <img
+                class="partners-way-image"
+                src="./assets/content/partners-6.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <script>
+          const overflowBox = document.querySelector(
+            ".partners-way-overflow-box"
+          );
+          const prevButton = document.querySelector(
+            ".partners-ways-arrows__prew"
+          );
+          const nextButton = document.querySelector(
+            ".partners-ways-arrows__next"
+          );
+
+          // Function to calculate scroll amount
+          const calculateScrollAmount = () => {
+            return window.innerWidth - 30;
+          };
+
+          const scrollAmount = calculateScrollAmount();
+
+          // Event listener for resizing the window
+          window.addEventListener("resize", () => {
+            scrollAmount = calculateScrollAmount();
+          });
+
+          // Scroll left or right by the calculated amount
+          const scrollContent = (direction) => {
+            overflowBox.scrollBy({
+              left: direction * scrollAmount,
+              behavior: "smooth",
+            });
+          };
+
+          prevButton.addEventListener("click", () => scrollContent(-1));
+          nextButton.addEventListener("click", () => scrollContent(1));
+        </script>
+      </section>
     </main>
     <footer>
       <div class="footer-column logo-and-s-w-footer">
