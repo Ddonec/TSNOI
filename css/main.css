@@ -26,6 +26,8 @@ footer {
   flex-wrap: wrap;
   column-gap: 97px;
   row-gap: 61px;
+  background: #fff;
+  border-radius: 30px 30px 0 0;
 }
 .header-main {
   display: flex;
@@ -1421,6 +1423,7 @@ footer {
 }
 .blue-bg-container-right {
   width: 50%;
+  z-index: 1;
 }
 .blue-bg-container__fos-box {
   background: #f4f4f4;
@@ -1430,6 +1433,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 2;
 }
 .fos-box_title {
   font-family: var(--font-family);
@@ -1510,4 +1514,16 @@ footer {
   letter-spacing: -0.03em;
   color: #f9f9f9;
   max-width: 404px;
+}
+.fos-fly-1 {
+  position: absolute;
+  width: 350px;
+  bottom: -10%;
+  right: 40%;
+}
+.fos-fly-2 {
+  position: absolute;
+  top: -20%;
+  right: 5%;
+  width: 350px;
 }
