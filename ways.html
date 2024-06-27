@@ -498,6 +498,186 @@
           </div>
         </div>
       </section>
+      <section class="white-blocks-section-ways">
+        <div class="white-way-block">
+          <img
+            class="white-way-block__image-way"
+            src="./assets/content/ways-bottom-easy-photo.png"
+            alt=""
+          />
+          <div class="white-way-block__info ways-align-left">
+            <div class="ways-tabs__grey-tab">Возможность пройти онлайн</div>
+            <h2 class="white-way-block__title">
+              Очный и заочный<br />
+              форматы обучения
+            </h2>
+            <p class="white-way-block__subtitle">
+              Часть программ можно пройти дистанционно:
+            </p>
+            <div class="ways-tabs-block">
+              <div class="ways-tabs__tab">Видео</div>
+              <div class="ways-tabs__tab">Приложения</div>
+              <div class="ways-tabs__tab">Статьи</div>
+              <div class="ways-tabs__tab">Уроки и лекции по видеосвязи</div>
+            </div>
+            <a href="">
+              <div class="white-way-block__button">
+                Подробнее
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.5 12.9216L19.5 12.9216"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.5 6.92163L19.5 12.9216L13.5 18.9216"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></div
+            ></a>
+          </div>
+        </div>
+        <div class="white-way-block">
+          <div class="white-way-block__info ways-align-left">
+            <h2 class="white-way-block__title">
+              Государственные сертификаты, внесение сведений в ФИС ФРДО
+            </h2>
+            <div class="white-way-block__subtitle">
+              <ul class="ways-tabs__list">
+                <li>Удостоверение о повышении квалификации</li>
+                <li>
+                  Диплом о профессиональной переподготовке  (на право ведения
+                  нового вида деятельности)
+                </li>
+                <li>
+                  Диплом о профессиональной переподготовке (с присвоением
+                  квалификации)
+                </li>
+              </ul>
+            </div>
+            <a href=""
+              ><div class="white-way-block__button">
+                Подробнее
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.5 12.9216L19.5 12.9216"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.5 6.92163L19.5 12.9216L13.5 18.9216"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></div
+            ></a>
+          </div>
+          <div class="white-way-block__slider">
+            <div class="white-way-block__slider_arrow-prew">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.1025 19.5903L8.10254 12.5903L15.1025 5.59033"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="white-way-block__slider_arrow-next">
+              <svg
+                width="10"
+                height="17"
+                viewBox="0 0 10 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.10254 1.59033L8.10254 8.59033L1.10254 15.5903"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="white-way-block__slider__overflow-zone">
+              <div class="white-way-block__slider__images-container">
+                <div class="white-way-block__slider__img-1"></div>
+                <div class="white-way-block__slider__img-2"></div>
+                <div class="white-way-block__slider__img-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          const sliderContainer = document.querySelector(
+            ".white-way-block__slider__images-container"
+          );
+          const prevArrow = document.querySelector(
+            ".white-way-block__slider_arrow-prew"
+          );
+          const nextArrow = document.querySelector(
+            ".white-way-block__slider_arrow-next"
+          );
+          const slides = document.querySelectorAll(
+            ".white-way-block__slider__images-container > div"
+          );
+
+          let currentIndex = 0;
+
+          prevArrow.addEventListener("click", function () {
+            if (currentIndex > 0) {
+              currentIndex--;
+              updateSliderPosition();
+            }
+          });
+
+          nextArrow.addEventListener("click", function () {
+            if (currentIndex < slides.length - 1) {
+              currentIndex++;
+              updateSliderPosition();
+            }
+          });
+
+          function updateSliderPosition() {
+            const translateXValue = -currentIndex * 100;
+            sliderContainer.style.transform = `translateX(${translateXValue}%)`;
+          }
+
+          // Optional: handle window resize to update slide width
+          window.addEventListener("resize", function () {
+            updateSliderPosition();
+          });
+        </script>
+      </section>
     </main>
     <footer>
       <div class="footer-column logo-and-s-w-footer">

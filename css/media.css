@@ -158,6 +158,9 @@
     width: 100%;
     order: -1;
   }
+  .white-way-block__image-way {
+    width: 100%;
+  }
   .white-way-block {
     padding: 35px 18px;
     gap: 30px;
@@ -197,6 +200,9 @@
   }
   .learning-big-card__tab {
     font-size: 14px;
+  }
+  .white-way-block__slider {
+    width: 100%;
   }
 }
 
@@ -309,6 +315,10 @@
   .middle-section-ways__title-button {
     font-size: 14px;
   }
+  .white-blocks-section-ways {
+    gap: 50px;
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -415,6 +425,21 @@
   .ways-card__subtitle {
     font-size: 14px;
   }
+  .ways-tabs__tab {
+    font-size: 14px;
+    padding: 16px;
+  }
+  .ways-align-left {
+    align-items: unset;
+  }
+  .white-way-block__slider {
+    height: 435px;
+  }
+  .white-way-block__slider__overflow-zone {
+    width: 50%;
+    aspect-ratio: 0.71;
+    height: unset;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -427,7 +452,12 @@
     padding: 20px 24px 40px;
   }
   .learning-big-card__button,
-  .learning-big-card__button {
+  .learning-big-card__button,
+  .white-way-block__button {
     width: 100%;
+    justify-content: center;
+  }
+  .white-way-block__slider {
+    height: 235px;
   }
 }
