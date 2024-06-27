@@ -103,6 +103,27 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .blue-bg-container__header {
+    font-size: 35px;
+  }
+  .fos-box_title {
+    font-size: 28px;
+  }
+  .fos-box_subtitle,
+  .checkbox-agree-container__text,
+  .messenger-feedback-box__text {
+    font-size: 16px;
+  }
+  .fos-box_name-input,
+  .fos-box_number-input {
+    height: 60px;
+    font-size: 18px;
+  }
+  .fos-box_btn-agree {
+    font-size: 18px;
+  }
+}
 @media (max-width: 1000px) {
   .dottet-list-footer {
     gap: 10px;
@@ -203,6 +224,22 @@
   }
   .white-way-block__slider {
     width: 100%;
+  }
+  .blue-bg-container-for-fos {
+    flex-direction: column;
+    gap: 23px;
+  }
+  .blue-bg-container-left,
+  .blue-bg-container-right {
+    width: 100%;
+  }
+  .messenger-feedback-box {
+    position: static;
+    margin-top: 30px;
+  }
+  .fly-bottom-section-ways-page {
+    padding: 24px;
+    margin: 50px 0;
   }
 }
 

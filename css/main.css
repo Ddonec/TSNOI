@@ -1393,3 +1393,121 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
+.fly-bottom-section-ways-page {
+  border-radius: 30px;
+  margin: 190px 0 150px;
+  background-image: url(../assets/content/dots-bg.png),
+    linear-gradient(321deg, #087dff 0%, #060c47 100%);
+  background-size: cover, contain;
+  background-repeat: no-repeat, repeat;
+  background-position: center, top left;
+  position: relative;
+  padding: 47px 63px;
+  display: flex;
+}
+.blue-bg-container-for-fos {
+  display: flex;
+}
+.blue-bg-container-left {
+  width: 50%;
+}
+.blue-bg-container__header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 120%;
+  color: #f9f9f9;
+}
+.blue-bg-container-right {
+  width: 50%;
+}
+.blue-bg-container__fos-box {
+  background: #f4f4f4;
+  border-radius: 30px;
+  padding: 40px 20px;
+  max-width: 670px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fos-box_title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+}
+.fos-box_subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  margin-bottom: 30px;
+}
+.fos-box_name-input,
+.fos-box_number-input {
+  border-radius: 15px;
+  height: 90px;
+  border: none;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #a4a5a8;
+  padding-left: 28px;
+}
+.checkbox-agree-container {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+.checkbox-agree-container__input {
+}
+.checkbox-agree-container__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+}
+.fos-box_btn-agree {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+  background: #003acb;
+  border-radius: 15px;
+  padding: 26px 30px;
+  border: none;
+}
+.messenger-feedback-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  left: 63px;
+  bottom: 47px;
+}
+.messenger-feedback-box__icon-box {
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.messenger-feedback-box__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #f9f9f9;
+  max-width: 404px;
+}
