@@ -53,7 +53,14 @@
   .dottet-list-footer {
     width: 100%;
   }
+  .ways-img-bg {
+    bottom: -20%;
+  }
+  .ways-img-2 {
+    display: none;
+  }
 }
+
 @media (max-width: 1500px) {
   .white-card-shop {
     width: unset;
@@ -96,6 +103,27 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .blue-bg-container__header {
+    font-size: 35px;
+  }
+  .fos-box_title {
+    font-size: 28px;
+  }
+  .fos-box_subtitle,
+  .checkbox-agree-container__text,
+  .messenger-feedback-box__text {
+    font-size: 16px;
+  }
+  .fos-box_name-input,
+  .fos-box_number-input {
+    height: 60px;
+    font-size: 18px;
+  }
+  .fos-box_btn-agree {
+    font-size: 18px;
+  }
+}
 @media (max-width: 1000px) {
   .dottet-list-footer {
     gap: 10px;
@@ -151,6 +179,9 @@
     width: 100%;
     order: -1;
   }
+  .white-way-block__image-way {
+    width: 100%;
+  }
   .white-way-block {
     padding: 35px 18px;
     gap: 30px;
@@ -167,6 +198,52 @@
   }
   .shop-img-bg {
     height: unset;
+  }
+  .ways-img-bg {
+    display: none;
+  }
+  .ways-img-3,
+  .ways-img-1 {
+    display: none;
+  }
+  .blue-bg-main-text-ways {
+    margin: 15px 25px 50px;
+  }
+  .learning-big-card__grey {
+    font-size: 14px;
+  }
+  .learning-big-card__title {
+    font-size: 28px;
+    margin: 30px 0 16px;
+  }
+  .learning-big-card__subtitle {
+    font-size: 20px;
+  }
+  .learning-big-card__tab {
+    font-size: 14px;
+  }
+  .white-way-block__slider {
+    width: 100%;
+  }
+  .blue-bg-container-for-fos {
+    flex-direction: column;
+    gap: 23px;
+  }
+  .blue-bg-container-left,
+  .blue-bg-container-right {
+    width: 100%;
+  }
+  .messenger-feedback-box {
+    position: static;
+    margin-top: 30px;
+  }
+  .fly-bottom-section-ways-page {
+    padding: 24px;
+    margin: 50px 0;
+  }
+  .fos-fly-1,
+  .fos-fly-2 {
+    display: none;
   }
 }
 
@@ -252,12 +329,49 @@
   .white-card-shop__buttons {
     flex-wrap: wrap;
   }
+  .way-of-learning-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .way-of-learning__big-card {
+    width: 100%;
+  }
+  .way-of-learning__small-card {
+    width: 100%;
+    min-width: unset;
+  }
+  .way-of-learning__small_title {
+    font-size: 26px;
+  }
+  .way-of-learning__small_subtitle {
+    font-size: 16px;
+  }
+  .way-of-learning__big-card {
+    padding: 40px 24px 30px;
+  }
+  .middle-section-ways__title {
+    font-size: 28px;
+  }
+  .middle-section-ways__button,
+  .middle-section-ways__title-button {
+    font-size: 14px;
+  }
+  .white-blocks-section-ways {
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .ways-first-discription {
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
   header,
   footer {
     padding: 40px 15px;
+  }
+  header {
+    padding-top: 17px;
   }
   main {
     margin: 0 15px;
@@ -338,5 +452,69 @@
   }
   .shop-new-absolute {
     top: 300px;
+  }
+  .first-block-blue-bg-ways {
+    height: fit-content;
+    margin: 0;
+  }
+  .arrows-for-ways-second-container {
+    justify-content: end;
+  }
+  .ways-second-card {
+    margin-top: 50px;
+  }
+  .ways-card__title {
+    font-size: 25px;
+  }
+  .ways-card__subtitle {
+    font-size: 14px;
+  }
+  .ways-tabs__tab {
+    font-size: 14px;
+    padding: 16px;
+  }
+  .ways-align-left {
+    align-items: unset;
+  }
+  .white-way-block__slider {
+    height: 435px;
+  }
+  .white-way-block__slider__overflow-zone {
+    width: 50%;
+    aspect-ratio: 0.71;
+    height: unset;
+  }
+  .partners-way-card {
+    width: 140px;
+    height: 100px;
+  }
+  .partners-way-image {
+    width: 90%;
+  }
+  .partners-ways-arrows {
+    order: 1;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .ways-second-card {
+    width: calc(100vw - 30px);
+  }
+  .ways-card__img img {
+    width: calc(100vw - 70px);
+  }
+  .ways-second-card {
+    padding: 20px 24px 40px;
+  }
+  .learning-big-card__button,
+  .learning-big-card__button,
+  .white-way-block__button {
+    width: 100%;
+    justify-content: center;
+  }
+  .white-way-block__slider {
+    height: 235px;
   }
 }
