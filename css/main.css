@@ -2043,6 +2043,8 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   background: #fff;
+
+  background-size: cover;
 }
 .review-video-1 {
   background-image: url(../assets/content/review-bg-1.png);

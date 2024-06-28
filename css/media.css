@@ -113,6 +113,9 @@
   .white-way-block {
     gap: 50px;
   }
+  .review-card {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -448,6 +451,25 @@
   .courses-card-preschool__btns-area {
     flex-wrap: wrap;
   }
+  .review-card {
+    width: calc(100%);
+    padding: 24px;
+  }
+  .review-card__white-bottom {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .text-top-block__right-list_name {
+    font-size: 16px;
+  }
+  .text-top-block__right-list_job-title,
+  .review-card__middle-text,
+  .review-card__bottom-link {
+    font-size: 14px;
+  }
+  .review-card__top-block {
+    align-items: center;
+  }
 }
 @media (max-width: 700px) {
   header,
@@ -594,6 +616,9 @@
     display: flex;
     margin-top: 16px;
   }
+  .reviews-container > .review-card:not(:nth-child(-n + 4)) {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -620,5 +645,9 @@
   .preschool__go-to-all-courses-btn,
   .view-all-reviews-btn {
     width: 100%;
+  }
+  .text-top-block__icon {
+    width: 100px;
+    height: 100px;
   }
 }
