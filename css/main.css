@@ -774,7 +774,7 @@ footer {
 
   border-radius: 100px;
   padding: 15px 30px;
-  width: 178px;
+  width: fit-content;
   height: 53px;
   background: #454c7a;
   cursor: pointer;
@@ -898,6 +898,10 @@ footer {
   line-height: 130%;
   text-align: center;
   color: #000;
+}
+.tab-shop:hover {
+  background: #fff;
+  cursor: pointer;
 }
 .tab-shop.active {
   background: #000;
@@ -1783,6 +1787,7 @@ footer {
 
 .blue-bg-courses-text-ways {
   margin: auto 62px;
+  z-index: 1;
 }
 .lvl-up-img-1 {
   width: 220px;
@@ -1861,4 +1866,149 @@ footer {
 .p-one-img-2 {
   top: 20%;
   right: -5%;
+}
+.preschool-img-1 {
+  width: 350px;
+  top: 15%;
+  right: 30%;
+}
+.preschool-img-2 {
+  width: 350px;
+  top: 55%;
+  left: 95%;
+}
+.courses-cards-section {
+  margin: 160px 0;
+}
+.courses-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px 0 50px;
+}
+.courses-card-preschool {
+  border-radius: 30px;
+  padding: 40px 42px;
+  background: #fff;
+  width: calc((100% / 3) - 20px);
+  position: relative;
+}
+.courses-card-preschool__top-grey {
+  border-radius: 100px;
+  padding: 15px 30px;
+  background: #f4f4f4;
+  width: fit-content;
+}
+.courses-card-preschool__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000;
+  margin: 40px 0 20px;
+}
+.courses-card-preschool__subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #40444e;
+}
+.courses-card-preschool__tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 40px;
+}
+.courses-card-preschool__tabs_tab {
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  padding: 15px 27px;
+  width: fit-content;
+}
+.courses-card-preschool__first-gray-text,
+.courses-card-preschool__second-gray-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #9c9c9c;
+}
+.courses-card-preschool__gray-line {
+  background-color: #9c9c9c;
+  height: 1px;
+  margin: 15px 0;
+}
+.courses-card-preschool__price {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #40444e;
+  margin: 10px 0 40px;
+}
+.courses-card-preschool__btns-area {
+  display: flex;
+  gap: 20px;
+}
+.courses-card-preschool__btn-info {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+  border: 1px solid #003acb;
+  border-radius: 15px;
+  padding: 18px 30px;
+  background: #fff;
+}
+.courses-card-preschool__btn-info:hover {
+  color: #fff;
+  background: #003acb;
+  cursor: pointer;
+}
+.courses-card-preschool__btn-order {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+  background: #003acb;
+  border-radius: 15px;
+  padding: 18px 30px;
+}
+.courses-card-preschool__btn-order:hover {
+  background: #000;
+  cursor: pointer;
+}
+.new-absolute {
+  position: absolute;
+  right: 0;
+  top: 40px;
+
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(321deg, #087dff 0%, #060c47 100%);
+  border-radius: 100px 0 0 100px;
+  padding: 15px 30px;
+}
+.preschool__go-to-all-courses-btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.preschool__go-to-all-courses-btn:hover {
+  background: #fff;
+  cursor: pointer;
 }
