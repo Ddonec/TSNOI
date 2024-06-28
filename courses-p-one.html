@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/normalise.css" />
     <link rel="stylesheet" href="./css/media.css" />
-    <title>ways-page TSNOI</title>
+    <title>courses-first-page TSNOI</title>
   </head>
   <body>
     <header class="header-main">
@@ -187,497 +187,104 @@
             </div>
           </div>
         </div>
-        <div class="arrows-for-ways-second-container">
-          <div class="arrows-for-ways__left">
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15.4648 19.6033L8.46484 12.6033L15.4648 5.60327"
-                stroke="black"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-          <div class="arrows-for-ways__right">
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9.46484 5.60327L16.4648 12.6033L9.46484 19.6033"
-                stroke="black"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
-        <script>
-          const container = document.querySelector(
-            ".ways-second-overflow-container"
-          );
-          const leftArrow = document.querySelector(".arrows-for-ways__left");
-          const rightArrow = document.querySelector(".arrows-for-ways__right");
-
-          let cardWidth = 458; // ширина карточки
-          let smallScreenShift = window.innerWidth - 70; // смещение для экранов шириной менее 500 пикселей
-
-          window.addEventListener("resize", updateShift);
-
-          leftArrow.addEventListener("click", function () {
-            moveLeft();
-          });
-
-          rightArrow.addEventListener("click", function () {
-            moveRight();
-          });
-
-          function updateShift() {
-            smallScreenShift = window.innerWidth - 10;
-          }
-
-          function getShift() {
-            return window.innerWidth < 500 ? smallScreenShift : cardWidth;
-          }
-
-          function moveLeft() {
-            container.scrollBy({
-              left: -getShift(),
-              behavior: "smooth",
-            });
-          }
-
-          function moveRight() {
-            container.scrollBy({
-              left: getShift(),
-              behavior: "smooth",
-            });
-          }
-        </script>
       </section>
       <section class="section-standart-100 gap30-section">
-        <h2 class="standart_title">Направления обучения</h2>
-        <div class="way-of-learning-container">
-          <div class="way-of-learning__big-card">
-            <p class="learning-big-card__grey">Более 200 программ</p>
-            <h3 class="learning-big-card__title">
-              Программы профессиональной переподготовки
-            </h3>
-            <p class="learning-big-card__subtitle">
-              Минимальное время подготовки — от 250 часов
-            </p>
-            <div class="learning-big-card__tabs">
-              <div class="learning-big-card__tab">Дошк. образование</div>
-              <div class="learning-big-card__tab">Культура</div>
-              <div class="learning-big-card__tab">Общее образование</div>
-              <div class="learning-big-card__tab">HR</div>
-              <div class="learning-big-card__tab">Бух. учет</div>
-              <div class="learning-big-card__tab">Доп. образование</div>
-              <div class="learning-big-card__tab">Гос. закупки</div>
-            </div>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+        <h2 class="standart_title">Наши направления</h2>
+        <div class="course-ways-box">
+          <div class="course-ways__card big course-ways__card-1">
+            <div class="course-ways__top-black">Общее образование</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Учитель начальных классов</div>
+              <div class="course-ways-bot-white">Учитель предметник</div>
             </div>
           </div>
-          <div class="way-of-learning__big-card">
-            <p class="learning-big-card__grey">Более 200 программ</p>
-            <h3 class="learning-big-card__title">
-              Программы профессиональной переподготовки
-            </h3>
-            <p class="learning-big-card__subtitle">
-              Минимальное время подготовки — от 250 часов
-            </p>
-            <div class="learning-big-card__tabs">
-              <div class="learning-big-card__tab">Менеджмент</div>
-              <div class="learning-big-card__tab">Дошк. образование</div>
-              <div class="learning-big-card__tab">Общее образование</div>
-              <div class="learning-big-card__tab">Психология</div>
-              <div class="learning-big-card__tab">
-                Доп. образование детей и взрослых
-              </div>
+          <div class="course-ways__card small course-ways__card-2">
+            <div class="course-ways__top-black">
+              Профессиональное образование
             </div>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Учитель</div>
+              <div class="course-ways-bot-white">Учитель предметник</div>
             </div>
           </div>
-        </div>
-        <div class="way-of-learnong-small-comtainer">
-          <div class="way-of-learning__small-card">
-            <h3 class="way-of-learning__small_title">Мероприятия</h3>
-            <p class="way-of-learning__small_subtitle">
-              Конгрессы, всероссийские конкурсы, круглые столы, мастер-классы
-            </p>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+          <div class="course-ways__card small course-ways__card-3">
+            <img
+              class="course-ways__card-3-img-absolute"
+              src="./assets/content/course-ways__card-3-img-absolute.png"
+              alt=""
+            />
+            <div class="course-ways__top-black">Психология</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Дефектология</div>
+              <div class="course-ways-bot-white">Логопедия</div>
             </div>
           </div>
-          <div class="way-of-learning__small-card">
-            <h3 class="way-of-learning__small_title">Стажировка</h3>
-            <p class="way-of-learning__small_subtitle">
-              Конгрессы, всероссийские конкурсы, круглые столы, мастер-классы
-            </p>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+
+          <div class="course-ways__card small course-ways__card-4">
+            <div class="course-ways__top-black">Менеджмент</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Управление системами</div>
             </div>
           </div>
-          <div class="way-of-learning__small-card">
-            <h3 class="way-of-learning__small_title">Рецензирование</h3>
-            <p class="way-of-learning__small_subtitle">
-              Конгрессы, всероссийские конкурсы, круглые столы, мастер-классы
-            </p>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+          <div class="course-ways__card big course-ways__card-5">
+            <img
+              class="course-ways__card-5-img-absolute"
+              src="./assets/content/course-ways__card-5-img-absolute.png"
+              alt=""
+            />
+            <div class="course-ways__top-black">Дополнительное образование</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Для детей</div>
+              <div class="course-ways-bot-white">Для взрослых</div>
             </div>
           </div>
-          <div class="way-of-learning__small-card">
-            <h3 class="way-of-learning__small_title">Студия блоггинга</h3>
-            <p class="way-of-learning__small_subtitle">
-              Минимальное время подготовки — от 250 часов
-            </p>
-            <div class="learning-big-card__button">
-              Подробнее
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 12.8406H19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13 6.84058L19 12.8406L13 18.8406"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+          <div class="course-ways__card small course-ways__card-6">
+            <div class="course-ways__top-black">Государственные закупки</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Управление системами</div>
             </div>
+          </div>
+          <div class="course-ways__card small course-ways__card-7">
+            <img
+              class="course-ways__card-7-img-absolute"
+              src="./assets/content/course-ways__card-7-img-absolute.png"
+              alt=""
+            />
+            <div class="course-ways__top-black">Культура</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Музеи</div>
+              <div class="course-ways-bot-white">Экскурсионное дело</div>
+            </div>
+          </div>
+          <div class="course-ways__card small course-ways__card-8">
+            <div class="course-ways__top-black">Социальная работа</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Музеи</div>
+              <div class="course-ways-bot-white">Экскурсионное дело</div>
+            </div>
+          </div>
+          <div class="course-ways__card big course-ways__card-9">
+            <div class="course-ways__top-black">
+              HR-технологии. Кадровое делопроизводство
+            </div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Документоведение</div>
+              <div class="course-ways-bot-white">Архивное дело</div>
+            </div>
+          </div>
+          <div class="course-ways__card big course-ways__card-10">
+            <div class="course-ways__top-black">Бухгалтерский учет</div>
+            <div class="course-ways__bot-white-container">
+              <div class="course-ways-bot-white">Налогообложение</div>
+              <div class="course-ways-bot-white">Торговое дело</div>
+            </div>
+          </div>
+          <div class="course-ways__card big course-ways__card-11">
+            еще 345 курсов →
           </div>
         </div>
       </section>
-      <section>
-        <div class="middle-section-ways">
-          <h3 class="middle-section-ways__title">
-            Обучение — платное, количество мест — не ограничено
-          </h3>
-          <div class="middle-section-ways__button-container">
-            <div class="middle-section-ways__title-button">
-              График обучения 2024 г.
-            </div>
-            <div class="middle-section-ways__button">
-              Забронировать место сейчас
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="white-blocks-section-ways">
-        <div class="white-way-block">
-          <img
-            class="white-way-block__image-way"
-            src="./assets/content/ways-bottom-easy-photo.png"
-            alt=""
-          />
-          <div class="white-way-block__info ways-align-left">
-            <div class="ways-tabs__grey-tab">Возможность пройти онлайн</div>
-            <h2 class="white-way-block__title">
-              Очный и заочный<br />
-              форматы обучения
-            </h2>
-            <p class="white-way-block__subtitle">
-              Часть программ можно пройти дистанционно:
-            </p>
-            <div class="ways-tabs-block">
-              <div class="ways-tabs__tab">Видео</div>
-              <div class="ways-tabs__tab">Приложения</div>
-              <div class="ways-tabs__tab">Статьи</div>
-              <div class="ways-tabs__tab">Уроки и лекции по видеосвязи</div>
-            </div>
-            <a href="">
-              <div class="white-way-block__button">
-                Подробнее
-                <svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5.5 12.9216L19.5 12.9216"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M13.5 6.92163L19.5 12.9216L13.5 18.9216"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg></div
-            ></a>
-          </div>
-        </div>
-        <div class="white-way-block">
-          <div class="white-way-block__info ways-align-left">
-            <h2 class="white-way-block__title">
-              Государственные сертификаты, внесение сведений в ФИС ФРДО
-            </h2>
-            <div class="white-way-block__subtitle">
-              <ul class="ways-tabs__list">
-                <li>Удостоверение о повышении квалификации</li>
-                <li>
-                  Диплом о профессиональной переподготовке  (на право ведения
-                  нового вида деятельности)
-                </li>
-                <li>
-                  Диплом о профессиональной переподготовке (с присвоением
-                  квалификации)
-                </li>
-              </ul>
-            </div>
-            <a href=""
-              ><div class="white-way-block__button">
-                Подробнее
-                <svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5.5 12.9216L19.5 12.9216"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M13.5 6.92163L19.5 12.9216L13.5 18.9216"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg></div
-            ></a>
-          </div>
-          <div class="white-way-block__slider">
-            <div class="white-way-block__slider_arrow-prew">
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.1025 19.5903L8.10254 12.5903L15.1025 5.59033"
-                  stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-            <div class="white-way-block__slider_arrow-next">
-              <svg
-                width="10"
-                height="17"
-                viewBox="0 0 10 17"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.10254 1.59033L8.10254 8.59033L1.10254 15.5903"
-                  stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-            <div class="white-way-block__slider__overflow-zone">
-              <div class="white-way-block__slider__images-container">
-                <div class="white-way-block__slider__img-1"></div>
-                <div class="white-way-block__slider__img-2"></div>
-                <div class="white-way-block__slider__img-3"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script>
-          const sliderContainer = document.querySelector(
-            ".white-way-block__slider__images-container"
-          );
-          const prevArrow = document.querySelector(
-            ".white-way-block__slider_arrow-prew"
-          );
-          const nextArrow = document.querySelector(
-            ".white-way-block__slider_arrow-next"
-          );
-          const slides = document.querySelectorAll(
-            ".white-way-block__slider__images-container > div"
-          );
 
-          let currentIndex = 0;
-
-          prevArrow.addEventListener("click", function () {
-            if (currentIndex > 0) {
-              currentIndex--;
-              updateSliderPosition();
-            }
-          });
-
-          nextArrow.addEventListener("click", function () {
-            if (currentIndex < slides.length - 1) {
-              currentIndex++;
-              updateSliderPosition();
-            }
-          });
-
-          function updateSliderPosition() {
-            const translateXValue = -currentIndex * 100;
-            sliderContainer.style.transform = `translateX(${translateXValue}%)`;
-          }
-
-          // Optional: handle window resize to update slide width
-          window.addEventListener("resize", function () {
-            updateSliderPosition();
-          });
-        </script>
-      </section>
       <section class="fly-bottom-section-ways-page">
         <div class="blue-bg-container-for-fos">
           <div class="blue-bg-container-left">
@@ -763,19 +370,62 @@
           alt=""
         />
       </section>
-      <section class="partners-section-way">
-        <h2 class="standart_title">Организаторы и партнеры</h2>
-        <div class="partners-ways-arrows">
-          <div class="partners-ways-arrows__prew">
+      <section class="sertificates-section">
+        <h2 class="standart_title">Выдаем государственные сертификаты</h2>
+        <p class="sertificates__subtitle">И вносим сведения в ФИС ФРДО</p>
+        <div class="sertificates-overflow-container">
+          <div class="sertificates-container">
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-1.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Удостоверение о повышении квалификации 
+              </div>
+            </div>
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-2.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Диплом о профессиональной переподготовке  (на право ведения
+                нового вида деятельности)
+              </div>
+            </div>
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-3.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Диплом о профессиональной переподготовке  (с присвоением
+                квалификации)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sertificates-arrows">
+          <div class="sertificates-arrows__prew">
             <svg
-              width="25"
+              width="24"
               height="24"
-              viewBox="0 0 25 24"
+              viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M15.2559 19.0054L8.25586 12.0054L15.2559 5.00537"
+                d="M15 19L8 12L15 5"
                 stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
@@ -783,16 +433,16 @@
               />
             </svg>
           </div>
-          <div class="partners-ways-arrows__next">
+          <div class="sertificates-arrows__next">
             <svg
-              width="25"
+              width="24"
               height="24"
-              viewBox="0 0 25 24"
+              viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.25586 5.00537L16.2559 12.0054L9.25586 19.0054"
+                d="M9 5L16 12L9 19"
                 stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
@@ -801,87 +451,35 @@
             </svg>
           </div>
         </div>
-        <div class="partners-way-overflow-box">
-          <div class="partners-way-box">
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-1.png"
-                alt=""
-              />
-            </div>
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-2.png"
-                alt=""
-              />
-            </div>
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-3.png"
-                alt=""
-              />
-            </div>
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-4.png"
-                alt=""
-              />
-            </div>
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-5.png"
-                alt=""
-              />
-            </div>
-            <div class="partners-way-card">
-              <img
-                class="partners-way-image"
-                src="./assets/content/partners-6.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <script>
-          const overflowBox = document.querySelector(
-            ".partners-way-overflow-box"
-          );
-          const prevButton = document.querySelector(
-            ".partners-ways-arrows__prew"
-          );
-          const nextButton = document.querySelector(
-            ".partners-ways-arrows__next"
-          );
-
-          // Function to calculate scroll amount
-          const calculateScrollAmount = () => {
-            return window.innerWidth - 30;
-          };
-
-          const scrollAmount = calculateScrollAmount();
-
-          // Event listener for resizing the window
-          window.addEventListener("resize", () => {
-            scrollAmount = calculateScrollAmount();
-          });
-
-          // Scroll left or right by the calculated amount
-          const scrollContent = (direction) => {
-            overflowBox.scrollBy({
-              left: direction * scrollAmount,
-              behavior: "smooth",
-            });
-          };
-
-          prevButton.addEventListener("click", () => scrollContent(-1));
-          nextButton.addEventListener("click", () => scrollContent(1));
-        </script>
       </section>
+      <script>
+        const overflowContainer = document.querySelector(
+          ".sertificates-overflow-container"
+        );
+        const container = document.querySelector(".sertificates-container");
+        const leftArrow = document.querySelector(".sertificates-arrows__prew");
+        const rightArrow = document.querySelector(".sertificates-arrows__next");
+
+        let scrollAmount = window.innerWidth - 30;
+
+        leftArrow.addEventListener("click", function () {
+          overflowContainer.scrollBy({
+            left: -scrollAmount,
+            behavior: "smooth",
+          });
+        });
+
+        rightArrow.addEventListener("click", function () {
+          overflowContainer.scrollBy({
+            left: scrollAmount,
+            behavior: "smooth",
+          });
+        });
+
+        window.addEventListener("resize", function () {
+          scrollAmount = window.innerWidth - 30;
+        });
+      </script>
     </main>
     <footer>
       <div class="footer-column logo-and-s-w-footer">
