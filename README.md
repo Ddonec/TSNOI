@@ -7,3 +7,5 @@
 [deploy events shop](https://ddonec.github.io/TSNOI/events-shop.html)
 
 [deploy ways](https://ddonec.github.io/TSNOI/ways.html)
+
+[deploy courses-p-one](https://ddonec.github.io/TSNOI/courses-p-one.html)
