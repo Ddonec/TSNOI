@@ -1995,7 +1995,8 @@ footer {
   border-radius: 100px 0 0 100px;
   padding: 15px 30px;
 }
-.preschool__go-to-all-courses-btn {
+.preschool__go-to-all-courses-btn,
+.view-all-reviews-btn {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 24px;
@@ -2008,7 +2009,8 @@ footer {
   width: fit-content;
   margin: 0 auto;
 }
-.preschool__go-to-all-courses-btn:hover {
+.preschool__go-to-all-courses-btn:hover,
+.view-all-reviews-btn:hover {
   background: #fff;
   cursor: pointer;
 }
@@ -2021,4 +2023,119 @@ footer {
 }
 .tabs-overflow::-webkit-scrollbar {
   display: none;
+}
+
+.reviews-of-students-section {
+}
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px 0;
+}
+.review-card {
+  width: calc(25% - 22.5px);
+  position: relative;
+  height: 474px;
+  border-radius: 20px;
+  padding: 40px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+.review-video-1 {
+  background-image: url(../assets/content/review-bg-1.png);
+}
+.review-video-2 {
+  background-image: url(../assets/content/review-bg-2.png);
+}
+.review-video-7 {
+  background-image: url(../assets/content/review-bg-3.png);
+}
+.review-video-8 {
+  background-image: url(../assets/content/review-bg-4.png);
+}
+.review-card__play-btn {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.review-card__play-btn svg {
+  transform: translateX(4px);
+}
+.review-card__white-bottom {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
+
+  background: white;
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+.review-card__top-block {
+  display: flex;
+  gap: 10px;
+}
+.text-top-block__icon {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-image: url(../assets/content/review-circle.png);
+}
+.text-top-block__right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-top-block__right-list_stars {
+}
+.text-top-block__right-list_name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+}
+.text-top-block__right-list_job-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #40444e;
+}
+.review-card__middle-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #40444e;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.review-card__bottom-link {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #40444e;
+}
+.review-card__bottom-link a {
+  color: #40444e;
 }

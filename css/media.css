@@ -276,6 +276,9 @@
     padding: 24px;
     margin: 50px 0;
   }
+  .courses-cards-section {
+    margin: 50px 0;
+  }
   .fos-fly-1,
   .fos-fly-2,
   .lvl-up-img-2,
@@ -435,7 +438,8 @@
     font-size: 30px;
   }
   .sertificates__subtitle,
-  .preschool__go-to-all-courses-btn {
+  .preschool__go-to-all-courses-btn,
+  .view-all-reviews-btn {
     font-size: 18px;
   }
   .lvl-up-tab-mobile-hide {
@@ -613,7 +617,8 @@
   .courses-card-preschool {
     padding: 24px 20px;
   }
-  .preschool__go-to-all-courses-btn {
+  .preschool__go-to-all-courses-btn,
+  .view-all-reviews-btn {
     width: 100%;
   }
 }
