@@ -1689,3 +1689,76 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.sertificates__subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #40444e;
+  margin: 28px 0;
+}
+.sertificates-overflow-container {
+  width: 100%;
+  overflow: scroll;
+}
+.sertificates-overflow-container::-webkit-scrollbar {
+  display: none;
+}
+.sertificates-container {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+}
+.sertificates__card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 594px;
+}
+.sertificates__card_white {
+  border-radius: 30px;
+  max-width: 594px;
+  height: 370px;
+  background: #fff;
+  position: relative;
+}
+.sertificates__card__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sertificates__card_discription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  width: 100%;
+}
+
+.sertificates-arrows {
+  display: none;
+  gap: 7px;
+  justify-content: end;
+  margin-top: 16px;
+}
+.sertificates-arrows__prew,
+.sertificates-arrows__next {
+  width: 61px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #fff;
+}
+.sertificates-arrows__prew:hover,
+.sertificates-arrows__next:hover {
+  background: #003acb;
+}
+.sertificates-arrows__prew:hover > svg path,
+.sertificates-arrows__next:hover > svg path {
+  stroke: #fff;
+}

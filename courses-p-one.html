@@ -370,6 +370,116 @@
           alt=""
         />
       </section>
+      <section class="sertificates-section">
+        <h2 class="standart_title">Выдаем государственные сертификаты</h2>
+        <p class="sertificates__subtitle">И вносим сведения в ФИС ФРДО</p>
+        <div class="sertificates-overflow-container">
+          <div class="sertificates-container">
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-1.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Удостоверение о повышении квалификации 
+              </div>
+            </div>
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-2.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Диплом о профессиональной переподготовке  (на право ведения
+                нового вида деятельности)
+              </div>
+            </div>
+            <div class="sertificates__card">
+              <div class="sertificates__card_white">
+                <img
+                  class="sertificates__card__img"
+                  src="./assets/content/sertificates__card-3.png"
+                  alt=""
+                />
+              </div>
+              <div class="sertificates__card_discription">
+                Диплом о профессиональной переподготовке  (с присвоением
+                квалификации)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sertificates-arrows">
+          <div class="sertificates-arrows__prew">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 19L8 12L15 5"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="sertificates-arrows__next">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 5L16 12L9 19"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <script>
+        const overflowContainer = document.querySelector(
+          ".sertificates-overflow-container"
+        );
+        const container = document.querySelector(".sertificates-container");
+        const leftArrow = document.querySelector(".sertificates-arrows__prew");
+        const rightArrow = document.querySelector(".sertificates-arrows__next");
+
+        let scrollAmount = window.innerWidth - 30;
+
+        leftArrow.addEventListener("click", function () {
+          overflowContainer.scrollBy({
+            left: -scrollAmount,
+            behavior: "smooth",
+          });
+        });
+
+        rightArrow.addEventListener("click", function () {
+          overflowContainer.scrollBy({
+            left: scrollAmount,
+            behavior: "smooth",
+          });
+        });
+
+        window.addEventListener("resize", function () {
+          scrollAmount = window.innerWidth - 30;
+        });
+      </script>
     </main>
     <footer>
       <div class="footer-column logo-and-s-w-footer">
