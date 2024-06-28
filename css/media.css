@@ -65,6 +65,12 @@
   .white-card-shop {
     width: unset;
   }
+  .course-ways__card.small {
+    width: calc(50% - 15px);
+  }
+  .course-ways__card.big {
+    width: calc(50% - 15px);
+  }
 }
 @media (max-width: 1400px) {
   .white-zone-calendar-home {
@@ -365,6 +371,24 @@
   }
 }
 
+@media (max-width: 800px) {
+  .course-ways__card.small {
+    width: calc(100%);
+  }
+  .course-ways__card.big {
+    width: calc(100%);
+  }
+  .course-ways-box > .course-ways__card:nth-child(n + 7):nth-child(-n + 10) {
+    display: none;
+  }
+  .course-ways__top-black,
+  .course-ways-bot-white {
+    font-size: 14px;
+  }
+  .course-ways__card-11.big {
+    font-size: 30px;
+  }
+}
 @media (max-width: 700px) {
   header,
   footer {
