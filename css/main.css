@@ -159,6 +159,9 @@ footer {
 .first-block-blue-bg-shop {
   margin: 30px 0 70px;
 }
+.first-block-blue-bg-lvl-up {
+  margin: 30px 0 120px;
+}
 .first-block-blue-bg-overflow {
   width: 100%;
   height: 100%;
@@ -759,6 +762,21 @@ footer {
   height: 53px;
   background: #454c7a;
   margin-bottom: 60px;
+  cursor: pointer;
+}
+.blue-bg-courses__button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 100px;
+  padding: 15px 30px;
+  width: 178px;
+  height: 53px;
+  background: #454c7a;
   cursor: pointer;
 }
 .second-fly-element-way {
@@ -1761,4 +1779,78 @@ footer {
 .sertificates-arrows__prew:hover > svg path,
 .sertificates-arrows__next:hover > svg path {
   stroke: #fff;
+}
+
+.blue-bg-courses-text-ways {
+  margin: auto 62px;
+}
+.lvl-up-img-1 {
+  width: 220px;
+  top: 20%;
+  right: 30%;
+}
+.lvl-up-img-2 {
+  width: 350px;
+  top: 50%;
+  right: -5%;
+}
+
+.lvl-up-card.small {
+  width: calc(25% - 22.5px);
+}
+.course-lvl-white-comtainer > div:nth-last-child(1) {
+  background: #003acb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.course-lvl-up-card-1 {
+  background-image: url(../assets/content/couse-way-cards-bg-1.png);
+}
+.course-lvl-up-card-2 {
+  background-image: url(../assets/content/couses-bg-card-2.png);
+}
+.course-lvl-up-card-3 {
+  background-image: url(../assets/content/couses-bg-card-3.png);
+}
+.course-lvl-up-card-4 {
+  background-image: url(../assets/content/couses-bg-card-4.png);
+}
+.course-lvl-up-card-5 {
+  background-image: url(../assets/content/couses-bg-card-5.png);
+}
+.course-lvl-up-card-6 {
+  background-image: url(../assets/content/couses-bg-card-6.png);
+}
+.course-lvl-up-card-7 {
+  background-image: url(../assets/content/couses-bg-card-7.png);
+}
+.course-lvl-up-card-8 {
+  background-image: url(../assets/content/couses-bg-card-8.png);
+}
+.course-lvl-up-card-9 {
+  background-image: url(../assets/content/couses-bg-card-9.png);
+}
+.course-lvl-up-card-10 {
+  background-image: url(../assets/content/couses-bg-card-10.png);
+}
+.course-lvl-up-card-11 {
+  background-image: url(../assets/content/couses-bg-card-11.png);
+}
+.course-lvl-up-card-12 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.arrows-lvl-up-mobile {
+  display: none;
 }
