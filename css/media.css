@@ -62,6 +62,9 @@
   .ways-img-2 {
     display: none;
   }
+  .courses-card-preschool {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1500px) {
@@ -110,6 +113,9 @@
   .white-way-block {
     gap: 50px;
   }
+  .review-card {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -130,6 +136,29 @@
     font-size: 18px;
   }
   .fos-box_btn-agree {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1100px) {
+  .courses-card-preschool__top-grey,
+  .courses-card-preschool__tabs_tab {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .courses-card-preschool__title,
+  .courses-card-preschool__price {
+    font-size: 28px;
+  }
+  .courses-card-preschool__subtitle {
+    font-size: 18px;
+  }
+  .courses-card-preschool__first-gray-text,
+  .courses-card-preschool__second-gray-text {
+    font-size: 14px;
+  }
+  .courses-card-preschool__btn-info,
+  .courses-card-preschool__btn-order {
+    padding: 18px 24px;
     font-size: 18px;
   }
 }
@@ -250,10 +279,15 @@
     padding: 24px;
     margin: 50px 0;
   }
+  .courses-cards-section {
+    margin: 50px 0;
+  }
   .fos-fly-1,
   .fos-fly-2,
   .lvl-up-img-2,
-  .lvl-up-img-1 {
+  .lvl-up-img-1,
+  .preschool-img-1,
+  .preschool-img-2 {
     display: none;
   }
 }
@@ -374,6 +408,9 @@
   .ways-first-discription {
     width: 100%;
   }
+  .courses-card-preschool {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -403,11 +440,35 @@
   .course-ways__card-11.big {
     font-size: 30px;
   }
-  .sertificates__subtitle {
+  .sertificates__subtitle,
+  .preschool__go-to-all-courses-btn,
+  .view-all-reviews-btn {
     font-size: 18px;
   }
   .lvl-up-tab-mobile-hide {
     display: none;
+  }
+  .courses-card-preschool__btns-area {
+    flex-wrap: wrap;
+  }
+  .review-card {
+    width: calc(100%);
+    padding: 24px;
+  }
+  .review-card__white-bottom {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .text-top-block__right-list_name {
+    font-size: 16px;
+  }
+  .text-top-block__right-list_job-title,
+  .review-card__middle-text,
+  .review-card__bottom-link {
+    font-size: 14px;
+  }
+  .review-card__top-block {
+    align-items: center;
   }
 }
 @media (max-width: 700px) {
@@ -555,6 +616,9 @@
     display: flex;
     margin-top: 16px;
   }
+  .reviews-container > .review-card:not(:nth-child(-n + 4)) {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -574,5 +638,16 @@
   }
   .white-way-block__slider {
     height: 235px;
+  }
+  .courses-card-preschool {
+    padding: 24px 20px;
+  }
+  .preschool__go-to-all-courses-btn,
+  .view-all-reviews-btn {
+    width: 100%;
+  }
+  .text-top-block__icon {
+    width: 100px;
+    height: 100px;
   }
 }
