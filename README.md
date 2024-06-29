@@ -13,3 +13,5 @@
 [deploy courses lvl up](https://ddonec.github.io/TSNOI/courses-lvl-up.html)
 
 [deploy preschool](https://ddonec.github.io/TSNOI/preschool.html)
+
+[deploy 4 level](https://ddonec.github.io/TSNOI/four-lvl-course.html)
