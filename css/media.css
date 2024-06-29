@@ -126,6 +126,19 @@
   .white-block {
     width: calc(50% - 15px);
   }
+  .youtube-section-knowledge {
+    flex-direction: column-reverse;
+    gap: 30px;
+    height: auto;
+    padding: 25px 20px;
+  }
+  .youtube-right {
+    height: 560px;
+    width: 100%;
+  }
+  .youtube-left {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -147,6 +160,9 @@
   }
   .fos-box_btn-agree {
     font-size: 18px;
+  }
+  .youtube-title {
+    font-size: 28px;
   }
 }
 @media (max-width: 1100px) {
@@ -320,6 +336,15 @@
     width: 200px;
     top: 50%;
     right: 50px;
+  }
+  .yiotube-link-btn {
+    width: auto;
+  }
+  .youtube-right {
+    height: 211px;
+  }
+  .youtube-logo-absolute {
+    height: 100px;
   }
 }
 
