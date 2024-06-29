@@ -292,6 +292,13 @@
     margin: 50px 0;
     gap: 50px;
   }
+  .knowledge-absolut {
+    display: block;
+    width: 500px;
+    bottom: 0;
+    right: -100px;
+  }
+
   .fos-fly-1,
   .fos-fly-2,
   .lvl-up-img-2,
@@ -300,6 +307,12 @@
   .preschool-img-2,
   .programm-info__right {
     display: none;
+  }
+  .knowlege-fly-no-hide {
+    display: block;
+    width: 200px;
+    top: 50%;
+    right: 50px;
   }
 }
 
