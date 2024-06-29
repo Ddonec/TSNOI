@@ -2418,3 +2418,31 @@ footer {
 .vebinar-anonses-section {
   gap: 30px;
 }
+
+.tabs-last-vebinars-overflow {
+  width: 100%;
+  overflow-x: scroll;
+  margin: 30px 0;
+}
+.tabs-last-vebinars-overflow::-webkit-scrollbar {
+  display: none;
+}
+.tabs-last-vebinars {
+  display: flex;
+  gap: 10px;
+}
+.tab-last-vebinar {
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  padding: 15px 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
+  flex-shrink: 0;
+}
+.tab-last-vebinar.active {
+  background: #003acb;
+  color: #fff;
+}
