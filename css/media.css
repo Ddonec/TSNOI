@@ -45,6 +45,13 @@
   .sertificates-arrows {
     display: flex;
   }
+  .last-vebinar-preview-box
+    > .last-vebinar-preview-card:not(:nth-child(-n + 4)) {
+    display: none;
+  }
+  .last-vebinar-preview-card {
+    width: calc(50% - 15px);
+  }
 }
 @media (max-width: 1600px) {
   .white-zone-calendar-home {
@@ -449,6 +456,13 @@
     padding: 24px;
     height: 353px;
   }
+  .last-vebinar-preview-card__text {
+    font-size: 16px;
+  }
+  .preview-card__btn-area_btn,
+  .preview-card__btn-area_price {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -694,6 +708,9 @@
   }
   .vebinar-anonses-section {
     gap: 24px;
+  }
+  .last-vebinar-preview-card {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
