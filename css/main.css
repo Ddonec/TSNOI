@@ -2538,3 +2538,56 @@ footer {
 .video-preview-4 {
   background-image: url(../assets/content/video-preview-4.png);
 }
+.youtube-section-knowledge {
+  border-radius: 30px;
+  height: 619px;
+  background: #fff;
+  display: flex;
+  padding: 30px 30px 30px 40px;
+}
+.youtube-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 30px;
+}
+.youtube-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 120%;
+  color: #000;
+}
+.yiotube-link-btn {
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: 212px;
+  height: 67px;
+  background: #003acb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+}
+.youtube-right {
+  width: 50%;
+  position: relative;
+  background-image: url(../assets/content/youtube-bg.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+.youtube-logo-absolute {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
