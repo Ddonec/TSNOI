@@ -2617,6 +2617,9 @@ footer {
   height: 100dvh;
   overflow: scroll;
 }
+.modal-vebinar-scroll-box::-webkit-scrollbar {
+  display: none;
+}
 .close-btn {
   position: fixed;
   z-index: 11;
