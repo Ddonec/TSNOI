@@ -2446,3 +2446,95 @@ footer {
   background: #003acb;
   color: #fff;
 }
+
+.last-vebinar-preview-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.last-vebinar-preview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc(25% - 22.5px);
+}
+.last-vebinar-preview-card__preview {
+  border-radius: 15px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.last-vebinar-preview-card__play-btn {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff3f;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.last-vebinar-preview-card__play-btn:hover {
+  background: #fff;
+}
+.last-vebinar-preview-card__play-btn:hover svg path {
+  fill: #000;
+}
+.last-vebinar-preview-card__play-btn svg {
+  transform: translateX(4px);
+}
+.last-vebinar-preview-card__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.last-vebinar-preview-card__btn-area {
+  display: flex;
+  align-items: center;
+}
+.preview-card__btn-area_btn {
+  border: 1px solid #003acb;
+  border-radius: 15px;
+  padding: 18px 30px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+}
+.preview-card__btn-area_btn:hover {
+  background: #003acb;
+  color: #fff;
+  cursor: pointer;
+}
+.preview-card__btn-area_price {
+  margin-left: auto;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: right;
+  color: #40444e;
+}
+
+.video-preview-1 {
+  background-image: url(../assets/content/video-preview-1.png);
+}
+.video-preview-2 {
+  background-image: url(../assets/content/video-preview-2.png);
+}
+.video-preview-3 {
+  background-image: url(../assets/content/video-preview-3.png);
+}
+.video-preview-4 {
+  background-image: url(../assets/content/video-preview-4.png);
+}
