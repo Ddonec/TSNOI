@@ -2591,3 +2591,137 @@ footer {
   top: 50%;
   left: 50%;
 }
+.modal-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+  margin: 30px 0 15px;
+}
+.modal-vebinar-section {
+  background: #f4f4f4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 10;
+  display: none;
+}
+.modal-vebinar-section.active {
+  display: block;
+}
+.modal-vebinar-scroll-box {
+  padding: 156px 118px 50px 78px;
+  height: 100dvh;
+  overflow: scroll;
+}
+.modal-vebinar-scroll-box::-webkit-scrollbar {
+  display: none;
+}
+.close-btn {
+  position: fixed;
+  z-index: 11;
+  border-radius: 100px;
+  width: 61px;
+  height: 61px;
+  background: #003acb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 100px;
+  top: 43px;
+}
+.modal-preview {
+  position: relative;
+  width: 100%;
+  max-width: 980px;
+  aspect-ratio: 1.56;
+  background-image: url(../assets/content/video-preview-3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.modal-subtitle,
+.modal-white__discription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.modal-btns-box {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 30px;
+}
+.modal-buy-btn {
+  border-radius: 15px;
+  padding: 18px 30px;
+  background: #003acb;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+}
+.modal-price {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: right;
+  color: #40444e;
+}
+.modal-white-box {
+  border-radius: 30px;
+  height: 385px;
+  background: #fff;
+  display: flex;
+  gap: 36px;
+  padding: 33px 42px;
+  align-items: center;
+  margin-top: 60px;
+}
+.modal-sertificate {
+  border-radius: 30px;
+  width: 233px;
+  height: 323px;
+  flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.modal-white__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.modal-white__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+}
+.sertificate-1 {
+  background-image: url(../assets/content/modal-proof-1.png);
+}
+.sertificate-2 {
+  background-image: url(../assets/content/modal-proof-2.png);
+}
+.grey-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none;
+  z-index: 9;
+}
+.grey-bg.active {
+  display: block;
+}
