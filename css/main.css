@@ -2415,3 +2415,6 @@ footer {
 .vebinar-card__absolute-img-last {
   bottom: -30px;
 }
+.vebinar-anonses-section {
+  gap: 30px;
+}

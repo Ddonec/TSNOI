@@ -422,6 +422,20 @@
   .courses-card-preschool {
     width: 100%;
   }
+  .vebinar-card__date {
+    font-size: 16px;
+  }
+  .vebinar-card__title {
+    font-size: 18px;
+  }
+  .vebinar-card__vhite-btn {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .vebinar-card {
+    padding: 24px;
+    height: 353px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -658,6 +672,15 @@
   }
   .blue-cont-four-btns-box__price span {
     font-size: 24px;
+  }
+  .vebinar-card {
+    width: calc(100vw - 30px);
+  }
+  .knowledge-arrows-box {
+    order: 1;
+  }
+  .vebinar-anonses-section {
+    gap: 24px;
   }
 }
 @media (max-width: 500px) {

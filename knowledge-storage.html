@@ -172,6 +172,36 @@
             </div>
           </div>
         </div>
+        <script>
+          const vebinarContainer = document.querySelector(
+            ".vebinar-cards-owerflow-container"
+          );
+          const prevArrow = document.querySelector(".knowledge-arrow-prew");
+          const nextArrow = document.querySelector(".knowledge-arrow-next");
+
+          function getShift() {
+            return window.innerWidth < 700 ? window.innerWidth : 468;
+          }
+
+          prevArrow.addEventListener("click", function () {
+            vebinarContainer.scrollBy({
+              left: -getShift(),
+              behavior: "smooth",
+            });
+          });
+
+          nextArrow.addEventListener("click", function () {
+            vebinarContainer.scrollBy({
+              left: getShift(),
+              behavior: "smooth",
+            });
+          });
+
+          window.addEventListener("resize", function () {
+            // Update shift value on window resize
+            getShift();
+          });
+        </script>
       </section>
     </main>
     <footer>
