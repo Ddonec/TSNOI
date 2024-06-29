@@ -116,6 +116,9 @@
   .review-card {
     width: calc(50% - 15px);
   }
+  .white-block {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -282,12 +285,20 @@
   .courses-cards-section {
     margin: 50px 0;
   }
+  .programm-info__left {
+    width: 100%;
+  }
+  .second-section-four-lvl {
+    margin: 50px 0;
+    gap: 50px;
+  }
   .fos-fly-1,
   .fos-fly-2,
   .lvl-up-img-2,
   .lvl-up-img-1,
   .preschool-img-1,
-  .preschool-img-2 {
+  .preschool-img-2,
+  .programm-info__right {
     display: none;
   }
 }
@@ -470,6 +481,9 @@
   .review-card__top-block {
     align-items: center;
   }
+  .white-block {
+    width: 100%;
+  }
 }
 @media (max-width: 700px) {
   header,
@@ -619,6 +633,32 @@
   .reviews-container > .review-card:not(:nth-child(-n + 4)) {
     display: none;
   }
+  .first-blue-box-four {
+    height: unset;
+  }
+  .blue-bg-courses__button,
+  .blue-bg-courses__whitebutton {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .four-blue-title {
+    font-size: 35px;
+    width: 100%;
+  }
+  .blue-cont-four-btns-box__sign-up,
+  .blue-cont-four-btns-box__get-trial {
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .blue-cont-four-btns-box__price {
+    font-size: 30px;
+    margin: 32px auto 0;
+  }
+  .blue-cont-four-btns-box__price span {
+    font-size: 24px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -649,5 +689,20 @@
   .text-top-block__icon {
     width: 100px;
     height: 100px;
+  }
+  .white-block__title {
+    font-size: 35px;
+  }
+  .white-block__subtitle {
+    font-size: 18px;
+  }
+  .white-block {
+    padding: 32px 24px;
+    height: 184px;
+  }
+  .white-block__img-last,
+  .white-block__img-area img {
+    width: 70px;
+    height: 70px;
   }
 }
