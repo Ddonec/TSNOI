@@ -2319,3 +2319,275 @@ footer {
   background-position: center;
   border-radius: 30px;
 }
+.knowledge-absolut {
+  right: -2%;
+}
+.vebinar-anonses-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.knowledge-arrows-box {
+  display: flex;
+  gap: 7px;
+  margin-left: auto;
+}
+.knowledge-arrow-prew,
+.knowledge-arrow-next {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.knowledge-arrow-prew:hover,
+.knowledge-arrow-next:hover {
+  background: #003acb;
+}
+.knowledge-arrow-prew:hover svg path,
+.knowledge-arrow-next:hover svg path {
+  stroke: #fff;
+}
+.vebinar-cards-owerflow-container {
+  overflow-x: scroll;
+  width: 100%;
+}
+.vebinar-cards-owerflow-container::-webkit-scrollbar {
+  display: none;
+}
+.vebinar-cards-container {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+}
+.vebinar-card {
+  background: linear-gradient(321deg, #087dff 0%, #060c47 100%);
+  border-radius: 30px;
+  width: 438px;
+  height: 500px;
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.vebinar-card__date {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+}
+.vebinar-card__title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+  margin-top: 20px;
+}
+.vebinar-card__vhite-btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+  border-radius: 100px;
+  padding: 15px 30px;
+  background: #fff;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: auto;
+}
+.vebinar-card__vhite-btn:hover {
+  cursor: pointer;
+  background: #003acb;
+  color: #fff;
+}
+.vebinar-card__absolute-img {
+  width: 288px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.vebinar-card__absolute-img-last {
+  bottom: -30px;
+}
+.vebinar-anonses-section {
+  gap: 30px;
+}
+
+.tabs-last-vebinars-overflow {
+  width: 100%;
+  overflow-x: scroll;
+  margin: 30px 0;
+}
+.tabs-last-vebinars-overflow::-webkit-scrollbar {
+  display: none;
+}
+.tabs-last-vebinars {
+  display: flex;
+  gap: 10px;
+}
+.tab-last-vebinar {
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  padding: 15px 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
+  flex-shrink: 0;
+}
+.tab-last-vebinar.active {
+  background: #003acb;
+  color: #fff;
+}
+
+.last-vebinar-preview-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.last-vebinar-preview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc(25% - 22.5px);
+}
+.last-vebinar-preview-card__preview {
+  border-radius: 15px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.last-vebinar-preview-card__play-btn {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff3f;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.last-vebinar-preview-card__play-btn:hover {
+  background: #fff;
+}
+.last-vebinar-preview-card__play-btn:hover svg path {
+  fill: #000;
+}
+.last-vebinar-preview-card__play-btn svg {
+  transform: translateX(4px);
+}
+.last-vebinar-preview-card__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.last-vebinar-preview-card__btn-area {
+  display: flex;
+  align-items: center;
+}
+.preview-card__btn-area_btn {
+  border: 1px solid #003acb;
+  border-radius: 15px;
+  padding: 18px 30px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+}
+.preview-card__btn-area_btn:hover {
+  background: #003acb;
+  color: #fff;
+  cursor: pointer;
+}
+.preview-card__btn-area_price {
+  margin-left: auto;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: right;
+  color: #40444e;
+}
+
+.video-preview-1 {
+  background-image: url(../assets/content/video-preview-1.png);
+}
+.video-preview-2 {
+  background-image: url(../assets/content/video-preview-2.png);
+}
+.video-preview-3 {
+  background-image: url(../assets/content/video-preview-3.png);
+}
+.video-preview-4 {
+  background-image: url(../assets/content/video-preview-4.png);
+}
+.youtube-section-knowledge {
+  border-radius: 30px;
+  height: 619px;
+  background: #fff;
+  display: flex;
+  padding: 30px 30px 30px 40px;
+}
+.youtube-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 30px;
+}
+.youtube-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 120%;
+  color: #000;
+}
+.yiotube-link-btn {
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: 212px;
+  height: 67px;
+  background: #003acb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+}
+.youtube-right {
+  width: 50%;
+  position: relative;
+  background-image: url(../assets/content/youtube-bg.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+.youtube-logo-absolute {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
