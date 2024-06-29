@@ -116,6 +116,9 @@
   .review-card {
     width: calc(50% - 15px);
   }
+  .white-block {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -470,6 +473,9 @@
   .review-card__top-block {
     align-items: center;
   }
+  .white-block {
+    width: 100%;
+  }
 }
 @media (max-width: 700px) {
   header,
@@ -675,5 +681,20 @@
   .text-top-block__icon {
     width: 100px;
     height: 100px;
+  }
+  .white-block__title {
+    font-size: 35px;
+  }
+  .white-block__subtitle {
+    font-size: 18px;
+  }
+  .white-block {
+    padding: 32px 24px;
+    height: 184px;
+  }
+  .white-block__img-last,
+  .white-block__img-area img {
+    width: 70px;
+    height: 70px;
   }
 }

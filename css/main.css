@@ -2217,3 +2217,57 @@ footer {
   font-size: 24px;
   line-height: 130%;
 }
+.second-section-four-lvl {
+}
+.white-blocks-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.white-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 40px 56px;
+  height: 266px;
+  background: #fff;
+  width: calc(25% - 22.5px);
+}
+.white-block__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.white-block__subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+}
+.white-block__img-area {
+  display: flex;
+}
+.white-block__img-last {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #003acb;
+  border: 2px solid white;
+
+  transform: translateX(-12px);
+}
