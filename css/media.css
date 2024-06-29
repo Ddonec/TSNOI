@@ -285,12 +285,20 @@
   .courses-cards-section {
     margin: 50px 0;
   }
+  .programm-info__left {
+    width: 100%;
+  }
+  .second-section-four-lvl {
+    margin: 50px 0;
+    gap: 50px;
+  }
   .fos-fly-1,
   .fos-fly-2,
   .lvl-up-img-2,
   .lvl-up-img-1,
   .preschool-img-1,
-  .preschool-img-2 {
+  .preschool-img-2,
+  .programm-info__right {
     display: none;
   }
 }
