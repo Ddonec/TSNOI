@@ -2340,6 +2340,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .knowledge-arrow-prew:hover,
 .knowledge-arrow-next:hover {
@@ -2441,10 +2442,15 @@ footer {
   line-height: 130%;
   color: #000;
   flex-shrink: 0;
+  cursor: pointer;
+  background: #fff;
 }
 .tab-last-vebinar.active {
   background: #003acb;
   color: #fff;
+}
+.last-vebinars-section {
+  margin-top: 120px;
 }
 
 .last-vebinar-preview-box {

@@ -346,6 +346,9 @@
   .youtube-logo-absolute {
     height: 100px;
   }
+  .last-vebinars-section {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 900px) {
