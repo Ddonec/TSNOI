@@ -139,6 +139,15 @@
   .youtube-left {
     width: 100%;
   }
+  .news-container__block {
+    height: 400px;
+  }
+  .news-container__small-block {
+    width: calc(50% - 15px);
+  }
+  .news-container__big-block {
+    width: calc(50% - 15px);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -584,6 +593,19 @@
   }
   .modal-price {
     font-size: 20px;
+  }
+  .news-container__block {
+    height: 400px;
+  }
+  .news-container__small-block,
+  .news-container__big-block {
+    width: 100%;
+  }
+  .news-page-news-container > .news-container__block:not(:nth-child(-n + 5)) {
+    display: none;
+  }
+  .news-container__big-block {
+    height: 200px;
   }
 }
 @media (max-width: 700px) {
