@@ -417,6 +417,18 @@
   .about-img-1 {
     display: none;
   }
+  .white-bg-about {
+    background: unset;
+    border-radius: 0;
+    padding: 0;
+  }
+  .about-sertificate-bg {
+    background: #fff;
+    width: 357px;
+  }
+  .sertificates-container-about {
+    gap: 24px;
+  }
 }
 @media (max-width: 900px) {
   .third-fly-element {
@@ -936,6 +948,9 @@
   }
   .grow-overflow-container {
     margin-top: 24px;
+  }
+  .sertificates__card__img_about {
+    height: 194px;
   }
 }
 @media (max-width: 500px) {
