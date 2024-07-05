@@ -3,6 +3,9 @@
     column-gap: unset;
     justify-content: space-between;
   }
+  .news-absolut {
+    right: 0;
+  }
 }
 @media (max-width: 1700px) {
   .burger-menu {
@@ -72,6 +75,9 @@
   .courses-card-preschool {
     width: calc(50% - 15px);
   }
+  .news-absolut {
+    bottom: 0;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -83,6 +89,11 @@
   }
   .course-ways__card.big {
     width: calc(50% - 15px);
+  }
+  .news-absolut {
+    scale: 0.9;
+    bottom: -10%;
+    right: -10%;
   }
 }
 @media (max-width: 1400px) {
@@ -172,6 +183,11 @@
   }
   .youtube-title {
     font-size: 28px;
+  }
+  .news-absolut {
+    scale: 0.6;
+    bottom: -20%;
+    right: -30%;
   }
 }
 @media (max-width: 1100px) {
@@ -358,8 +374,10 @@
   .last-vebinars-section {
     margin-top: 50px;
   }
+  .news-absolut {
+    display: block;
+  }
 }
-
 @media (max-width: 900px) {
   .third-fly-element {
     width: 250px;
@@ -797,6 +815,11 @@
   .show-more-mobile-btn {
     display: block;
   }
+  .news-absolut {
+    scale: 0.6;
+    bottom: -30%;
+    right: -300px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -842,5 +865,10 @@
   .white-block__img-area img {
     width: 70px;
     height: 70px;
+  }
+  .news-absolut {
+    scale: 0.45;
+    bottom: -40%;
+    right: -400px;
   }
 }
