@@ -3163,3 +3163,7 @@ footer {
   background-color: #81a5ff;
   z-index: -1;
 }
+
+.about-grey-block {
+  background: unset;
+}

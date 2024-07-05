@@ -696,6 +696,9 @@
   .blue-line {
     top: 91px;
   }
+  .four-section-about {
+    gap: 30px;
+  }
 }
 @media (max-width: 700px) {
   header,
