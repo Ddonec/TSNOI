@@ -2828,6 +2828,11 @@ footer {
   top: 85%;
   left: 90%;
 }
+.article-mini-absolut-2 {
+  width: 350px;
+  top: 25%;
+  left: 90%;
+}
 
 .second-section-article {
   position: relative;
