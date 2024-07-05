@@ -21,3 +21,5 @@
 [deploy news and articles](https://ddonec.github.io/TSNOI/news.html)
 
 [deploy article page](https://ddonec.github.io/TSNOI/article.html)
+
+[deploy article mini page](https://ddonec.github.io/TSNOI/article-mini.html)
