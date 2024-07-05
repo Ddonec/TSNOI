@@ -23,3 +23,5 @@
 [deploy article page](https://ddonec.github.io/TSNOI/article.html)
 
 [deploy article mini page](https://ddonec.github.io/TSNOI/article-mini.html)
+
+[deploy privacy politic](https://ddonec.github.io/TSNOI/privacy.html)
