@@ -564,7 +564,8 @@
   .text-page__offtitle {
     font-size: 28px;
   }
-  .text-page__main-text {
+  .text-page__main-text,
+  .text-page__small-title {
     font-size: 16px;
   }
 }
