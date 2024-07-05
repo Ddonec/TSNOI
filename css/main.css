@@ -3000,3 +3000,7 @@ footer {
   line-height: 130%;
   color: #40444e;
 }
+.text-page__small-title {
+  font-size: 20px;
+  margin-top: 30px;
+}
