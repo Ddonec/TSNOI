@@ -2828,6 +2828,11 @@ footer {
   top: 85%;
   left: 90%;
 }
+.article-mini-absolut-2 {
+  width: 350px;
+  top: 25%;
+  left: 90%;
+}
 
 .second-section-article {
   position: relative;
@@ -2922,11 +2927,29 @@ footer {
 }
 .article-avtar__box_2 {
   position: absolute;
-  right: -26px;
-  top: 33%;
+  right: calc(25% / 4);
+  transform: translateX(50%);
+  top: 90%;
 }
 .article-avtar__box_1 {
   position: absolute;
-  right: -26px;
-  top: 90%;
+  right: calc(25% / 4);
+  transform: translateX(50%);
+  top: 33%;
+}
+.article-container__blue-btn {
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: fit-content;
+  background: #003acb;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
 }

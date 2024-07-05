@@ -417,7 +417,9 @@
   }
   .first-block-blue-bg {
     margin: 50px 0;
+    margin-top: 0; /* Под вопросом */
   }
+
   .standart-margin-section,
   .section-standart-100 {
     margin-top: 50px;
@@ -539,6 +541,15 @@
   .close-btn {
     top: 25px;
     right: 15px;
+  }
+  .article-mini-absolut-1 {
+    display: block;
+    right: unset;
+    left: 100px;
+    top: 70%;
+  }
+  .article-mini-absolut-2 {
+    display: none;
   }
 }
 
@@ -853,6 +864,11 @@
   .article-container__paragpaph,
   .article-container__white-box {
     font-size: 16px;
+  }
+  .article-container__blue-btn {
+    width: 100%;
+    margin-top: 2px;
+    font-size: 18px;
   }
 }
 @media (max-width: 500px) {
