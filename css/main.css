@@ -3056,3 +3056,24 @@ footer {
   color: #40444e;
   margin-top: 12px;
 }
+.about-copied-subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+}
+.about-copied-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+}
+.about-card {
+  height: unset;
+  width: calc(25% - 22.5px);
+}
+.about__img {
+  height: 170px;
+}
