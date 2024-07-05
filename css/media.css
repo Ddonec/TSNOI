@@ -3,6 +3,9 @@
     column-gap: unset;
     justify-content: space-between;
   }
+  .news-absolut {
+    right: 0;
+  }
 }
 @media (max-width: 1700px) {
   .burger-menu {
@@ -72,6 +75,9 @@
   .courses-card-preschool {
     width: calc(50% - 15px);
   }
+  .news-absolut {
+    bottom: 0;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -83,6 +89,11 @@
   }
   .course-ways__card.big {
     width: calc(50% - 15px);
+  }
+  .news-absolut {
+    scale: 0.9;
+    bottom: -10%;
+    right: -10%;
   }
 }
 @media (max-width: 1400px) {
@@ -172,6 +183,11 @@
   }
   .youtube-title {
     font-size: 28px;
+  }
+  .news-absolut {
+    scale: 0.6;
+    bottom: -20%;
+    right: -30%;
   }
 }
 @media (max-width: 1100px) {
@@ -358,8 +374,21 @@
   .last-vebinars-section {
     margin-top: 50px;
   }
-}
+  .news-absolut,
+  .article-absolut {
+    display: block;
+  }
+  .article-container__image {
+    height: 293px;
+  }
 
+  .article-avtar__box_2 {
+    position: relative;
+  }
+  .article-avtar__box_1 {
+    position: relative;
+  }
+}
 @media (max-width: 900px) {
   .third-fly-element {
     width: 250px;
@@ -797,6 +826,34 @@
   .show-more-mobile-btn {
     display: block;
   }
+  .news-absolut {
+    scale: 0.6;
+    bottom: -30%;
+    right: -300px;
+  }
+  .article-absolut {
+    scale: 0.6;
+    right: -100px;
+    bottom: -150px;
+  }
+  .article-absolute-2 {
+    left: 100px;
+    top: 300px;
+  }
+  .article-page-article-container {
+    width: 100%;
+  }
+  .article-container__white-box {
+    padding: 32px 13px;
+    text-align: center;
+  }
+  .article-container__title {
+    font-size: 28px;
+  }
+  .article-container__paragpaph,
+  .article-container__white-box {
+    font-size: 16px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -842,5 +899,23 @@
   .white-block__img-area img {
     width: 70px;
     height: 70px;
+  }
+  .news-absolut {
+    scale: 0.45;
+    bottom: -40%;
+    right: -400px;
+  }
+  .article-absolut {
+    scale: 0.45;
+    right: -150px;
+    bottom: -200px;
+  }
+  .article-absolute-2 {
+    left: 100px;
+    top: 300px;
+    width: 180px;
+  }
+  .blue-bg-courses-text-ways {
+    margin: 45px 24px;
   }
 }

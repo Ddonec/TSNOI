@@ -17,3 +17,5 @@
 [deploy 4 level](https://ddonec.github.io/TSNOI/four-lvl-course.html)
 
 [deploy knowledge with modal](https://ddonec.github.io/TSNOI/knowledge-storage.html)
+
+[deploy news and articles](https://ddonec.github.io/TSNOI/news.html)
