@@ -19,3 +19,5 @@
 [deploy knowledge with modal](https://ddonec.github.io/TSNOI/knowledge-storage.html)
 
 [deploy news and articles](https://ddonec.github.io/TSNOI/news.html)
+
+[deploy article page](https://ddonec.github.io/TSNOI/article.html)
