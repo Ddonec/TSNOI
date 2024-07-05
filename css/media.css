@@ -794,6 +794,9 @@
   .last-vebinar-preview-card {
     width: 100%;
   }
+  .show-more-mobile-btn {
+    display: block;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {

@@ -2796,3 +2796,17 @@ footer {
 .news-container__12 {
   background-image: url(../assets/content/news-container_12.png);
 }
+
+.show-more-mobile-btn {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 18px 30px;
+  margin-top: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+  display: none;
+}
