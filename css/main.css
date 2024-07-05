@@ -2922,11 +2922,13 @@ footer {
 }
 .article-avtar__box_2 {
   position: absolute;
-  right: -26px;
-  top: 33%;
+  right: calc(25% / 4);
+  transform: translateX(50%);
+  top: 90%;
 }
 .article-avtar__box_1 {
   position: absolute;
-  right: -26px;
-  top: 90%;
+  right: calc(25% / 4);
+  transform: translateX(50%);
+  top: 33%;
 }
