@@ -2828,3 +2828,50 @@ footer {
   top: 85%;
   left: 90%;
 }
+
+.second-section-article {
+}
+.article-page-article-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 75%;
+  margin: 0 auto;
+}
+.article-container__image {
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  height: 575px;
+}
+.article-image-1 {
+  background-image: url(../assets/content/article-article-img-1.png);
+}
+.article-container__main-text {
+}
+.article-container__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+  margin-bottom: 20px;
+}
+.article-container__paragpaph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
+}
+.article-container__white-box {
+  padding: 51px 100px;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article-image-2 {
+  background-image: url(../assets/content/article-article-img-2.png);
+}

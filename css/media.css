@@ -378,6 +378,9 @@
   .article-absolut {
     display: block;
   }
+  .article-container__image {
+    height: 293px;
+  }
 }
 @media (max-width: 900px) {
   .third-fly-element {
