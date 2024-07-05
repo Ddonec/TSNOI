@@ -833,6 +833,20 @@
     left: 100px;
     top: 300px;
   }
+  .article-page-article-container {
+    width: 100%;
+  }
+  .article-container__white-box {
+    padding: 32px 13px;
+    text-align: center;
+  }
+  .article-container__title {
+    font-size: 28px;
+  }
+  .article-container__paragpaph,
+  .article-container__white-box {
+    font-size: 16px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
