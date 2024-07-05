@@ -3004,3 +3004,15 @@ footer {
   font-size: 20px;
   margin-top: 30px;
 }
+.about-bg-img {
+  right: 0;
+}
+
+.about-img-1 {
+  right: 32%;
+  top: 50%;
+}
+.about-img-2 {
+  left: 90%;
+  top: 20%;
+}

@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/normalise.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>about TSNOI</title>
+  </head>
+  <body>
+    <header class="header-main">
+      <img class="logo-header" src="./assets/content/logo-tsnoi.png" alt="" />
+      <div class="burger-menu-main" id="burger-menu-main">
+        <nav>
+          <ul class="nav-list">
+            <li class="shrink"><a href="">Направления деятельности</a></li>
+            <li class="shrink"><a href="">О компании</a></li>
+            <li class="shrink"><a href="">Новости и статьи</a></li>
+            <li class="shrink"><a href="">Оплата</a></li>
+            <li class="shrink search-nav-btn">
+              <img src="./assets/icon/user-icon.svg" alt="" /><a href=""
+                >Поиск</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-right-container">
+          <div class="header-right shrink">
+            <div class="header-right__city">Санкт-Петербург</div>
+            <a class="link-format" href="tel:+78126779724">
+              <div class="header-right__phone">+7 (812) 677-97-24</div>
+            </a>
+          </div>
+          <div class="header-right-white shrink">
+            <div class="header-right__whatsapp-logo">
+              <img src="./assets/icon/whatsupp-icon.svg" alt="" />
+            </div>
+            <div class="header-right__whatsapp-text">Написать в WhatsApp</div>
+          </div>
+          <div class="header-right-white shrink">
+            <div class="header-right__cabinet-logo">
+              <img src="./assets/icon/user-icon.svg" alt="" />
+            </div>
+            <div class="header-right__cabinet-text">Вход в СДО</div>
+          </div>
+        </div>
+      </div>
+      <div class="burger-menu" id="burger-menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </header>
+    <main>
+      <section class="small-margin-section">
+        <div class="first-block-blue-bg first-block-blue-bg-lvl-up">
+          <img
+            src="./assets/content/about-su-absolute-1.png"
+            class="fly-element about-img-1"
+          />
+
+          <div class="first-block-blue-bg-overflow ways-overflow">
+            <img
+              src="./assets/content/about-su-absolute-2.png"
+              class="fly-element about-img-2"
+            />
+            <img
+              src="./assets/content/about-us-peoples.png"
+              class="ways-img-bg about-bg-img"
+            />
+            <div class="blue-bg-courses-text-ways">
+              <div class="blue-bg-courses__button">
+                Центр непрерывного образования и инноваций
+              </div>
+              <h1 class="h1-text">О компании</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses-cards-section">
+        <div class="tabs-overflow">
+          <div class="tabs-shop">
+            <div class="tab-shop active">Все направления</div>
+            <div class="tab-shop">ТОП-30</div>
+            <div class="tab-shop">Педагогика</div>
+            <div class="tab-shop">Воспитание</div>
+            <div class="tab-shop">Психология</div>
+          </div>
+        </div>
+        <script>
+          const tabs = document.querySelectorAll(".tab-shop");
+
+          tabs.forEach((tab) => {
+            tab.addEventListener("click", function () {
+              tabs.forEach((t) => t.classList.remove("active"));
+              tab.classList.add("active");
+            });
+          });
+        </script>
+        <div class="courses-cards-container">
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="new-absolute">Новинка</div>
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="new-absolute">Новинка</div>
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="new-absolute">Новинка</div>
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+          <div class="courses-card-preschool">
+            <div class="courses-card-preschool__top-grey">ПП - 101</div>
+            <h3 class="courses-card-preschool__title">Дошкольная педагогика</h3>
+            <p class="courses-card-preschool__subtitle">
+              Старший воспитатель дошкольной образовательной организации
+            </p>
+            <div class="courses-card-preschool__tabs">
+              <div class="courses-card-preschool__tabs_tab">Диплом</div>
+              <div class="courses-card-preschool__tabs_tab">356 академ. ч</div>
+              <div class="courses-card-preschool__tabs_tab">заочная форма</div>
+            </div>
+            <p class="courses-card-preschool__first-gray-text">
+              Начало обучения 1 и 15 числа каждый месяц
+            </p>
+            <div class="courses-card-preschool__gray-line"></div>
+            <p class="courses-card-preschool__second-gray-text">
+              За всю программу
+            </p>
+            <div class="courses-card-preschool__price">от 3 490 ₽</div>
+            <div class="courses-card-preschool__btns-area">
+              <div class="courses-card-preschool__btn-info">Подробнее</div>
+              <div class="courses-card-preschool__btn-order">Записаться</div>
+            </div>
+          </div>
+        </div>
+        <div class="preschool__go-to-all-courses-btn">
+          Перейти ко всем курсам
+        </div>
+      </section>
+
+      <section class="reviews-of-students-section">
+        <h2 class="standart_title">Отзывы учеников</h2>
+        <div class="reviews-container">
+          <div class="review-card video review-video-1">
+            <div class="review-card__play-btn">
+              <svg
+                width="26"
+                height="28"
+                viewBox="0 0 26 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.25 13.998L0.25 27.998L0.250001 -0.00195312L25.25 13.998Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="review-card__white-bottom">Алена Ситникова</div>
+          </div>
+          <div class="review-card video review-video-2">
+            <div class="review-card__play-btn">
+              <svg
+                width="26"
+                height="28"
+                viewBox="0 0 26 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.25 13.998L0.25 27.998L0.250001 -0.00195312L25.25 13.998Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="review-card__white-bottom">Иван Козлов</div>
+          </div>
+          <div class="review-card text review-text-3">
+            <div class="review-card__top-block">
+              <div class="text-top-block__icon"></div>
+              <div class="text-top-block__right-list">
+                <div class="text-top-block__right-list_stars">
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                </div>
+                <p class="text-top-block__right-list_name">Власова Е.И</p>
+                <p class="text-top-block__right-list_job-title">
+                  Директор школы МОУ СОШ Гимназия Салахова, г Сургут
+                </p>
+              </div>
+            </div>
+            <div class="review-card__middle-text">
+              Обращались в компанию весной, нужно было здание под офис. Ответили
+              первыми, от остальных компаний предложения ждали неделю! В общем
+              съездили на завод и на них и остановились, в итоге не пожалели!
+              Вполне рекомендуем, во всяком случае все было оперативно и по
+              качеству тоже вопросов не возникало. Молодцы ребята, процветания
+              Вам! Менеджерам отдельное спасибо за понимание)
+            </div>
+            <div class="review-card__bottom-link">Читать полностью</div>
+          </div>
+          <div class="review-card text review-text-3">
+            <div class="review-card__top-block">
+              <div class="text-top-block__icon"></div>
+              <div class="text-top-block__right-list">
+                <div class="text-top-block__right-list_stars">
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                </div>
+                <p class="text-top-block__right-list_name">Власова Е.И</p>
+                <p class="text-top-block__right-list_job-title">
+                  Директор школы МОУ СОШ Гимназия Салахова, г Сургут
+                </p>
+              </div>
+            </div>
+            <div class="review-card__middle-text">
+              Обращались в компанию весной, нужно было здание под офис. Ответили
+              первыми, от остальных компаний предложения ждали неделю! В общем
+              съездили на завод и на них и остановились, в итоге не пожалели!
+              Вполне рекомендуем, во всяком случае все было оперативно и по
+              качеству тоже вопросов не возникало. Молодцы ребята, процветания
+              Вам! Менеджерам отдельное спасибо за понимание)
+            </div>
+            <div class="review-card__bottom-link">Читать полностью</div>
+          </div>
+          <div class="review-card text review-text-3">
+            <div class="review-card__top-block">
+              <div class="text-top-block__icon"></div>
+              <div class="text-top-block__right-list">
+                <div class="text-top-block__right-list_stars">
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                </div>
+                <p class="text-top-block__right-list_name">Власова Е.И</p>
+                <p class="text-top-block__right-list_job-title">
+                  Директор школы МОУ СОШ Гимназия Салахова, г Сургут
+                </p>
+              </div>
+            </div>
+            <div class="review-card__middle-text">
+              Обращались в компанию весной, нужно было здание под офис. Ответили
+              первыми, от остальных компаний предложения ждали неделю! В общем
+              съездили на завод и на них и остановились, в итоге не пожалели!
+              Вполне рекомендуем, во всяком случае все было оперативно и по
+              качеству тоже вопросов не возникало. Молодцы ребята, процветания
+              Вам! Менеджерам отдельное спасибо за понимание)
+            </div>
+            <div class="review-card__bottom-link">
+              <a href="">Читать полностью</a>
+            </div>
+          </div>
+          <div class="review-card text review-text-3">
+            <div class="review-card__top-block">
+              <div class="text-top-block__icon"></div>
+              <div class="text-top-block__right-list">
+                <div class="text-top-block__right-list_stars">
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                  <img src=".//assets/content/review-star.svg" alt="" />
+                </div>
+                <p class="text-top-block__right-list_name">Власова Е.И</p>
+                <p class="text-top-block__right-list_job-title">
+                  Директор школы МОУ СОШ Гимназия Салахова, г Сургут
+                </p>
+              </div>
+            </div>
+            <div class="review-card__middle-text">
+              Обращались в компанию весной, нужно было здание под офис. Ответили
+              первыми, от остальных компаний предложения ждали неделю! В общем
+              съездили на завод и на них и остановились, в итоге не пожалели!
+              Вполне рекомендуем, во всяком случае все было оперативно и по
+              качеству тоже вопросов не возникало. Молодцы ребята, процветания
+              Вам! Менеджерам отдельное спасибо за понимание)
+            </div>
+            <div class="review-card__bottom-link">Читать полностью</div>
+          </div>
+          <div class="review-card video review-video-7">
+            <div class="review-card__play-btn">
+              <svg
+                width="26"
+                height="28"
+                viewBox="0 0 26 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.25 13.998L0.25 27.998L0.250001 -0.00195312L25.25 13.998Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="review-card__white-bottom">Дарья Коломецкая</div>
+          </div>
+          <div class="review-card video review-video-8">
+            <div class="review-card__play-btn">
+              <svg
+                width="26"
+                height="28"
+                viewBox="0 0 26 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.25 13.998L0.25 27.998L0.250001 -0.00195312L25.25 13.998Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="review-card__white-bottom">Сергей Транин</div>
+          </div>
+        </div>
+        <div class="view-all-reviews-btn">Все отзывы</div>
+      </section>
+
+      <section class="fly-bottom-section-ways-page">
+        <div class="blue-bg-container-for-fos">
+          <div class="blue-bg-container-left">
+            <h3 class="blue-bg-container__header">
+              Оставьте заявку, чтобы начать обучение
+            </h3>
+          </div>
+          <div class="blue-bg-container-right">
+            <form class="blue-bg-container__fos-box">
+              <h4 class="fos-box_title">Заполните форму ниже</h4>
+              <p class="fos-box_subtitle">
+                Оставьте свои данные и менеджер свяжется с вами в ближайшее
+                время
+              </p>
+              <input
+                class="fos-box_name-input"
+                placeholder="Ваше имя"
+                type="text"
+              />
+              <input
+                placeholder="Номер телефона"
+                class="fos-box_number-input"
+                type="number"
+              />
+              <div class="checkbox-agree-container">
+                <input
+                  class="checkbox-agree-container__input"
+                  type="checkbox"
+                />
+                <p class="checkbox-agree-container__text">
+                  Я соглашаюсь с политикой конфиденциальности
+                </p>
+              </div>
+              <button class="fos-box_btn-agree">Записаться</button>
+            </form>
+            <div class="messenger-feedback-box">
+              <div class="messenger-feedback-box__icon-box">
+                <svg
+                  width="31"
+                  height="31"
+                  viewBox="0 0 31 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_237_24788)">
+                    <path
+                      d="M22.6604 17.4033C22.6019 17.3753 20.4148 16.2983 20.0262 16.1584C19.8675 16.1015 19.6976 16.0458 19.5168 16.0458C19.2215 16.0458 18.9734 16.193 18.7801 16.4821C18.5617 16.8068 17.9003 17.5799 17.6959 17.8109C17.6693 17.8414 17.6328 17.8778 17.611 17.8778C17.5914 17.8778 17.253 17.7384 17.1505 17.6939C14.8044 16.6748 13.0235 14.224 12.7794 13.8107C12.7445 13.7513 12.743 13.7243 12.7427 13.7243C12.7513 13.6929 12.8302 13.6138 12.8709 13.573C12.99 13.4551 13.1191 13.2998 13.244 13.1495C13.3031 13.0783 13.3623 13.007 13.4205 12.9398C13.6016 12.729 13.6823 12.5654 13.7758 12.3758L13.8248 12.2773C14.0531 11.8237 13.8581 11.4409 13.7951 11.3173C13.7434 11.2139 12.8199 8.98512 12.7217 8.75097C12.4856 8.18594 12.1736 7.92285 11.7401 7.92285C11.6998 7.92285 11.7401 7.92285 11.5714 7.92996C11.3659 7.93863 10.2473 8.0859 9.75267 8.39769C9.22816 8.72837 8.34082 9.78246 8.34082 11.6362C8.34082 13.3046 9.39959 14.8799 9.85416 15.4791C9.86546 15.4942 9.88621 15.5248 9.91631 15.5689C11.6572 18.1113 13.8274 19.9954 16.0274 20.8743C18.1455 21.7203 19.1484 21.8181 19.7186 21.8181H19.7187C19.9583 21.8181 20.1501 21.7993 20.3193 21.7827L20.4266 21.7724C21.1583 21.7076 22.7662 20.8744 23.132 19.858C23.4201 19.0574 23.4961 18.1828 23.3044 17.8653C23.1731 17.6495 22.9468 17.5409 22.6604 17.4033Z"
+                      fill="#073F9A"
+                    />
+                    <path
+                      d="M15.7282 0.165039C7.60325 0.165039 0.993125 6.72549 0.993125 14.7894C0.993125 17.3975 1.69111 19.9505 3.01335 22.1849L0.482541 29.6504C0.435398 29.7896 0.470463 29.9434 0.573417 30.0483C0.647736 30.1241 0.748547 30.165 0.851502 30.165C0.89095 30.165 0.93069 30.1591 0.969456 30.1467L8.75387 27.6731C10.8841 28.8112 13.2917 29.412 15.7283 29.412C23.8524 29.4121 30.4619 22.8523 30.4619 14.7894C30.4619 6.72549 23.8524 0.165039 15.7282 0.165039ZM15.7282 26.3658C13.4354 26.3658 11.2147 25.7037 9.30585 24.4511C9.24166 24.4089 9.16715 24.3873 9.09215 24.3873C9.05251 24.3873 9.01277 24.3934 8.9741 24.4056L5.07459 25.6452L6.33342 21.9313C6.37413 21.8111 6.35377 21.6785 6.27877 21.5761C4.82514 19.5898 4.05673 17.2431 4.05673 14.7894C4.05673 8.4053 9.29251 3.2114 15.7281 3.2114C22.1629 3.2114 27.3981 8.4053 27.3981 14.7894C27.3982 21.1726 22.1631 26.3658 15.7282 26.3658Z"
+                      fill="#073F9A"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_237_24788">
+                      <rect
+                        width="30"
+                        height="30"
+                        fill="white"
+                        transform="translate(0.461914 0.165039)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <p class="messenger-feedback-box__text">
+                Так же для расчета, вы можете связаться в любом удобном для вас
+                месенджере
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="fos-fly-1"
+          src="./assets/content/fos-fly-art-1.png"
+          alt=""
+        />
+        <img
+          class="fos-fly-2"
+          src="./assets/content/fos-fly-art-2.png"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="footer-column logo-and-s-w-footer">
+        <img src="./assets/content/logo-tsnoi.png" alt="" />
+        <div class="social-webs-footer">
+          <a href="">
+            <div class="social-webs-footer__square">
+              <svg
+                width="24"
+                height="19"
+                viewBox="0 0 24 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.21354 8.47931C2.21354 8.47931 12.0371 4.44773 15.444 3.02812C16.7501 2.46032 21.1792 0.643199 21.1792 0.643199C21.1792 0.643199 23.2234 -0.151721 23.053 1.77888C22.9962 2.57388 22.542 5.35621 22.0877 8.36575C21.4063 12.6245 20.6681 17.2807 20.6681 17.2807C20.6681 17.2807 20.5545 18.5868 19.5892 18.8139C18.6239 19.041 17.0339 18.019 16.7501 17.7918C16.5229 17.6215 12.4913 15.0662 11.015 13.8169C10.6175 13.4763 10.1632 12.7949 11.0717 11.9999C13.1159 10.126 15.5576 7.79795 17.0339 6.32159C17.7154 5.64015 18.3967 4.05023 15.5576 5.98083C11.526 8.76325 7.55118 11.3753 7.55118 11.3753C7.55118 11.3753 6.64262 11.9431 4.93914 11.432C3.23558 10.921 1.24817 10.2396 1.24817 10.2396C1.24817 10.2396 -0.114554 9.38787 2.21354 8.47931Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </a>
+          <a href="vk.com"><div class="social-webs-footer__square"></div></a>
+          <a href=""
+            ><div class="social-webs-footer__square">
+              <svg
+                width="24"
+                height="15"
+                viewBox="0 0 24 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.8921 1.77919C23.0514 1.24785 22.8921 0.857422 22.1337 0.857422H19.6261C18.9885 0.857422 18.6945 1.1947 18.5351 1.56661C18.5351 1.56661 17.2599 4.67492 15.4534 6.69396C14.8689 7.27841 14.6032 7.46437 14.2844 7.46437C14.1251 7.46437 13.8943 7.27841 13.8943 6.74712V1.7792C13.8943 1.14159 13.7093 0.857422 13.1779 0.857422H9.23734C8.8389 0.857422 8.59926 1.15335 8.59926 1.43381C8.59926 2.03825 9.50247 2.17764 9.59558 3.87793V7.57068C9.59558 8.38031 9.44936 8.52709 9.13056 8.52709C8.28046 8.52709 6.21259 5.40491 4.98616 1.83231C4.74581 1.13792 4.50473 0.857422 3.86385 0.857422H1.35623C0.63976 0.857422 0.49646 1.1947 0.49646 1.56661C0.49646 2.2308 1.3466 5.52506 4.45486 9.88196C6.52702 12.8574 9.44655 14.4703 12.1032 14.4703C13.6972 14.4703 13.8944 14.112 13.8944 13.495V11.2462C13.8944 10.5297 14.0454 10.3867 14.5501 10.3867C14.9221 10.3867 15.5597 10.5727 17.0474 12.0073C18.7477 13.7075 19.028 14.4703 19.9843 14.4703H22.492C23.2084 14.4703 23.5667 14.112 23.36 13.4051C23.1338 12.7005 22.3221 11.6782 21.2449 10.4664C20.6604 9.77569 19.7838 9.03185 19.5181 8.65985C19.1461 8.18171 19.2524 7.96913 19.5181 7.54411C19.5181 7.54411 22.5732 3.24032 22.8921 1.77919Z"
+                  fill="white"
+                />
+              </svg></div
+          ></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <div class="button-contact-us">Связаться с нами</div>
+        <ul class="contacts-footer">
+          <li class="contacts-footer__city">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9574 11.6638C14.062 11.6638 14.9574 10.7684 14.9574 9.66382C14.9574 8.55925 14.062 7.66382 12.9574 7.66382C11.8528 7.66382 10.9574 8.55925 10.9574 9.66382C10.9574 10.7684 11.8528 11.6638 12.9574 11.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.9574 21.6638C12.9574 21.6638 19.9574 16.8177 19.9574 10.5869C19.9574 8.75078 19.2199 6.98987 17.9071 5.69154C16.5944 4.39321 14.8139 3.66382 12.9574 3.66382C11.1009 3.66382 9.3204 4.39321 8.00765 5.69154C6.6949 6.98987 5.9574 8.75078 5.9574 10.5869C5.9574 16.8177 12.9574 21.6638 12.9574 21.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Санкт-Петербург
+          </li>
+          <li class="contacts-footer__number">
+            <a href="tel:+78126778724">+7 (812) 677-87-24</a>
+          </li>
+          <li class="contacts-footer__number">
+            <a href="tel:+78126778724">+7 (812) 677-87-24</a>
+          </li>
+        </ul>
+        <ul class="contacts-footer">
+          <li class="contacts-footer__city">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9574 11.6638C14.062 11.6638 14.9574 10.7684 14.9574 9.66382C14.9574 8.55925 14.062 7.66382 12.9574 7.66382C11.8528 7.66382 10.9574 8.55925 10.9574 9.66382C10.9574 10.7684 11.8528 11.6638 12.9574 11.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.9574 21.6638C12.9574 21.6638 19.9574 16.8177 19.9574 10.5869C19.9574 8.75078 19.2199 6.98987 17.9071 5.69154C16.5944 4.39321 14.8139 3.66382 12.9574 3.66382C11.1009 3.66382 9.3204 4.39321 8.00765 5.69154C6.6949 6.98987 5.9574 8.75078 5.9574 10.5869C5.9574 16.8177 12.9574 21.6638 12.9574 21.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Волгоград
+          </li>
+          <li class="contacts-footer__number">
+            <a href="tel:+78442650093">+7 (8442) 65-00-93  </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column footer-column-1">
+        <ul class="footer-link-list">
+          <li class="footer-link-list__title">Основные направления</li>
+          <li class="footer-link-list__link">
+            <a href="">Повышение квалификации и переподготовка</a>
+          </li>
+          <li class="footer-link-list__link">
+            <a href="">Инновационные площадки</a>
+          </li>
+          <li class="footer-link-list__link">
+            <a href="">Студия создания видео-контента</a>
+          </li>
+          <li class="footer-link-list__link"><a href="">Выездные школы</a></li>
+          <li class="footer-link-list__link"><a href="">Стажировка</a></li>
+          <li class="footer-link-list__link"><a href="">База знаний</a></li>
+          <li class="footer-link-list__link"><a href="">Вебинары</a></li>
+          <li class="footer-link-list__link"><a href="">Онлайн-магазин</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer-column-2">
+        <ul class="footer-link-list">
+          <li class="footer-link-list__title">Главные события года</li>
+
+          <li class="footer-link-list__link">
+            <a href="">Все наши мероприятия </a>
+          </li>
+          <li class="footer-link-list__link">
+            <a href="">«Невская Образовательная Ассамблея»</a>
+          </li>
+          <li class="footer-link-list__link">
+            <a href="">Съезд «Моя страна»</a>
+          </li>
+          <li class="footer-link-list__link">
+            <a href="">Фестиваль дошкольного образования</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column footer-column-3">
+        <ul class="footer-link-list">
+          <li class="footer-link-list__title">Контакты</li>
+
+          <li class="footer-link-list__link">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9574 11.6638C14.062 11.6638 14.9574 10.7684 14.9574 9.66382C14.9574 8.55925 14.062 7.66382 12.9574 7.66382C11.8528 7.66382 10.9574 8.55925 10.9574 9.66382C10.9574 10.7684 11.8528 11.6638 12.9574 11.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.9574 21.6638C12.9574 21.6638 19.9574 16.8177 19.9574 10.5869C19.9574 8.75078 19.2199 6.98987 17.9071 5.69154C16.5944 4.39321 14.8139 3.66382 12.9574 3.66382C11.1009 3.66382 9.3204 4.39321 8.00765 5.69154C6.6949 6.98987 5.9574 8.75078 5.9574 10.5869C5.9574 16.8177 12.9574 21.6638 12.9574 21.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <a href="">Санкт-Петербург, ул. Харченко, 18 (метро «Лесная»)</a>
+          </li>
+          <li class="footer-link-list__link">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9574 11.6638C14.062 11.6638 14.9574 10.7684 14.9574 9.66382C14.9574 8.55925 14.062 7.66382 12.9574 7.66382C11.8528 7.66382 10.9574 8.55925 10.9574 9.66382C10.9574 10.7684 11.8528 11.6638 12.9574 11.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.9574 21.6638C12.9574 21.6638 19.9574 16.8177 19.9574 10.5869C19.9574 8.75078 19.2199 6.98987 17.9071 5.69154C16.5944 4.39321 14.8139 3.66382 12.9574 3.66382C11.1009 3.66382 9.3204 4.39321 8.00765 5.69154C6.6949 6.98987 5.9574 8.75078 5.9574 10.5869C5.9574 16.8177 12.9574 21.6638 12.9574 21.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <a href=""
+              >Санкт-Петербург, пр-т Большой Сампсониевский, 85 к.1 (метро
+              «Лесная»)</a
+            >
+          </li>
+          <li class="footer-link-list__link">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9574 11.6638C14.062 11.6638 14.9574 10.7684 14.9574 9.66382C14.9574 8.55925 14.062 7.66382 12.9574 7.66382C11.8528 7.66382 10.9574 8.55925 10.9574 9.66382C10.9574 10.7684 11.8528 11.6638 12.9574 11.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.9574 21.6638C12.9574 21.6638 19.9574 16.8177 19.9574 10.5869C19.9574 8.75078 19.2199 6.98987 17.9071 5.69154C16.5944 4.39321 14.8139 3.66382 12.9574 3.66382C11.1009 3.66382 9.3204 4.39321 8.00765 5.69154C6.6949 6.98987 5.9574 8.75078 5.9574 10.5869C5.9574 16.8177 12.9574 21.6638 12.9574 21.6638Z"
+                stroke="#003ACB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <a href="">Волгоград, ул. Командира Рудь, 1А</a>
+          </li>
+        </ul>
+      </div>
+      <div class="license-footer">
+        Copyright © 2015 - 2024 Центр непрерывного образования и инноваций
+      </div>
+      <ul class="dottet-list-footer">
+        <li class="dottet__text"><a href="">Сведения об организации</a></li>
+        <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>
+        <li class="dottet__text">
+          <a href="">Пользовательское соглашение </a>
+        </li>
+        <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>
+        <li class="dottet__text">
+          <a href="">Политика обработки персональных данных </a>
+        </li>
+        <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>
+        <li class="dottet__text">
+          <a href="">Описание возврата товара или услуги</a>
+        </li>
+        <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>
+        <li class="dottet__text"><a href="">Онлайн оплата</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="./JS/index.js"></script>
+</html>
