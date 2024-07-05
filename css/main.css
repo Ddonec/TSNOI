@@ -3167,3 +3167,24 @@ footer {
 .about-grey-block {
   background: unset;
 }
+.white-bg-about {
+  background: #fff;
+  border-radius: 30px;
+  padding: 50px 37px 80px;
+}
+
+.about-sertificate-bg {
+  background: #f4f4f4;
+  border-radius: 15px;
+  width: 400px;
+  height: 250px;
+}
+.sertificates__card_about {
+  width: 400px;
+}
+.sertificates__card_discription_about {
+  text-align: center;
+}
+.sertificates-container-about {
+  gap: 55px;
+}
