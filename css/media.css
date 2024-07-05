@@ -388,6 +388,15 @@
   .article-avtar__box_1 {
     position: relative;
   }
+  .text-page__title {
+    font-size: 32px;
+  }
+  .text-page-blue-block {
+    padding: 60px 24px;
+  }
+  .text-page__title {
+    text-align: left;
+  }
 }
 @media (max-width: 900px) {
   .third-fly-element {
