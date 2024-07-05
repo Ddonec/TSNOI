@@ -393,6 +393,7 @@
   }
   .text-page-blue-block {
     padding: 60px 24px;
+    height: 360px;
   }
   .text-page__title {
     text-align: left;
@@ -559,6 +560,12 @@
   }
   .article-mini-absolut-2 {
     display: none;
+  }
+  .text-page__offtitle {
+    font-size: 28px;
+  }
+  .text-page__main-text {
+    font-size: 16px;
   }
 }
 
@@ -878,6 +885,9 @@
     width: 100%;
     margin-top: 2px;
     font-size: 18px;
+  }
+  .text-page-first-section {
+    margin: 0 0 50px 0;
   }
 }
 @media (max-width: 500px) {

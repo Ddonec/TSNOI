@@ -2955,6 +2955,7 @@ footer {
 }
 
 .text-page-first-section {
+  margin: 30px 0 120px;
 }
 .text-page-blue-block {
   background-image: url(../assets/content/text-page-bg.png),
@@ -2974,4 +2975,28 @@ footer {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fff;
+}
+.text-page-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.text-page-text-block {
+  max-width: 1423px;
+  width: 100%;
+}
+.text-page__offtitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+  margin-bottom: 20px;
+}
+.text-page__main-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #40444e;
 }
