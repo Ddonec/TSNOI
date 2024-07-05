@@ -924,6 +924,9 @@
   .about-copied-subtitle {
     font-size: 18px;
   }
+  .about-card {
+    margin-top: 0;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
