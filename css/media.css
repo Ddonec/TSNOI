@@ -581,6 +581,15 @@
   .text-page__small-title {
     font-size: 16px;
   }
+  .second-section-about-title {
+    font-size: 28px;
+  }
+  .ovner__name {
+    font-size: 18px;
+  }
+  .ovner__priority {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 800px) {
