@@ -374,7 +374,8 @@
   .last-vebinars-section {
     margin-top: 50px;
   }
-  .news-absolut {
+  .news-absolut,
+  .article-absolut {
     display: block;
   }
 }
@@ -820,6 +821,15 @@
     bottom: -30%;
     right: -300px;
   }
+  .article-absolut {
+    scale: 0.6;
+    right: -100px;
+    bottom: -150px;
+  }
+  .article-absolute-2 {
+    left: 100px;
+    top: 300px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -870,5 +880,18 @@
     scale: 0.45;
     bottom: -40%;
     right: -400px;
+  }
+  .article-absolut {
+    scale: 0.45;
+    right: -150px;
+    bottom: -200px;
+  }
+  .article-absolute-2 {
+    left: 100px;
+    top: 300px;
+    width: 180px;
+  }
+  .blue-bg-courses-text-ways {
+    margin: 45px 24px;
   }
 }

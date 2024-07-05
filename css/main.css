@@ -2814,3 +2814,17 @@ footer {
 .download-more-mobile-btn {
   margin-top: 32px;
 }
+.h1-m-w-900 {
+  max-width: 900px;
+}
+
+.article-absolute-1 {
+  width: 250px;
+  top: 50%;
+  right: 30%;
+}
+.article-absolute-2 {
+  width: 250px;
+  top: 85%;
+  left: 90%;
+}
