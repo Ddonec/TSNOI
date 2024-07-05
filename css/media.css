@@ -55,6 +55,9 @@
   .last-vebinar-preview-card {
     width: calc(50% - 15px);
   }
+  .about-bg-img {
+    right: -300px;
+  }
 }
 @media (max-width: 1600px) {
   .white-zone-calendar-home {
@@ -397,6 +400,16 @@
   }
   .text-page__title {
     text-align: left;
+  }
+  .about-bg-img {
+    display: block;
+    right: -400px;
+
+    scale: 0.45;
+    bottom: -250px;
+  }
+  .about-img-1 {
+    display: none;
   }
 }
 @media (max-width: 900px) {
@@ -953,5 +966,8 @@
   }
   .blue-bg-courses-text-ways {
     margin: 45px 24px;
+  }
+  .about-bg-img {
+    right: -500px;
   }
 }
