@@ -2802,6 +2802,7 @@ footer {
   border-radius: 15px;
   padding: 18px 30px;
   margin-top: 24px;
+  margin-bottom: 50px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -2809,4 +2810,7 @@ footer {
   text-align: center;
   color: #000;
   display: none;
+}
+.download-more-mobile-btn {
+  margin-top: 32px;
 }
