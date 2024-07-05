@@ -676,7 +676,8 @@
   .modal-buy-btn {
     font-size: 18px;
   }
-  .modal-price {
+  .modal-price,
+  .grow-box__year {
     font-size: 20px;
   }
   .news-container__block {
@@ -691,6 +692,9 @@
   }
   .news-container__big-block {
     height: 200px;
+  }
+  .blue-line {
+    top: 91px;
   }
 }
 @media (max-width: 700px) {
@@ -926,6 +930,9 @@
   }
   .about-card {
     margin-top: 0;
+  }
+  .grow-overflow-container {
+    margin-top: 24px;
   }
 }
 @media (max-width: 500px) {
