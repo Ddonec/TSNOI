@@ -2932,3 +2932,19 @@ footer {
   transform: translateX(50%);
   top: 33%;
 }
+.article-container__blue-btn {
+  border-radius: 15px;
+  padding: 18px 30px;
+  width: fit-content;
+  background: #003acb;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+}
