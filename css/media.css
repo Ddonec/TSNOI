@@ -81,6 +81,12 @@
   .news-absolut {
     bottom: 0;
   }
+  .about-card {
+    width: 360px;
+  }
+  .ways-second-container-about {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -912,6 +918,12 @@
   .text-page-first-section {
     margin: 0 0 50px 0;
   }
+  .about-copied-title {
+    font-size: 28px;
+  }
+  .about-copied-subtitle {
+    font-size: 18px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -978,5 +990,8 @@
   }
   .about-bg-img {
     right: -500px;
+  }
+  .about__img img {
+    width: auto;
   }
 }
