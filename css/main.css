@@ -3188,3 +3188,40 @@ footer {
 .sertificates-container-about {
   gap: 55px;
 }
+
+.team-container-owerflow {
+}
+.team-container {
+  display: flex;
+}
+.team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc(25% - 22.5px);
+}
+.teat__avatar {
+}
+.team__name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+}
+.team__ul {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #40444e;
+}
+.team__li {
+  margin-left: 20px;
+}
+.team__li::marker {
+  color: #003acb;
+}
+.team__li:not(:nth-child(1)) {
+  margin-top: 20px;
+}
