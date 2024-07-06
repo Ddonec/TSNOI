@@ -574,6 +574,43 @@
         </script>
       </section>
 
+      <section class="standart-margin-section">
+        <h2 class="standart_title">Новости и статьи</h2>
+        <div class="tabs-last-vebinars-overflow">
+          <div class="tabs-last-vebinars">
+            <div class="tab-last-vebinar active">Все сотрудники</div>
+            <div class="tab-last-vebinar">Учебный отдел</div>
+            <div class="tab-last-vebinar">Общее образование</div>
+            <div class="tab-last-vebinar">Почтовый отдел</div>
+            <div class="tab-last-vebinar">Архивная служба</div>
+            <div class="tab-last-vebinar">Руководители</div>
+          </div>
+        </div>
+
+        <script>
+          const tabs = document.querySelectorAll(".tab-last-vebinar");
+
+          tabs.forEach((tab) => {
+            tab.addEventListener("click", function () {
+              tabs.forEach((t) => t.classList.remove("active"));
+              this.classList.add("active");
+            });
+          });
+        </script>
+
+        <div class="team-container-owerflow">
+          <div class="team-container">
+            <div class="team-card">
+              <div class="teat__avatar"></div>
+              <div class="team__name"></div>
+              <ul class="team__ul">
+                <li class="team__li"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="reviews-of-students-section">
         <h2 class="standart_title">Отзывы учеников</h2>
         <div class="reviews-container">
