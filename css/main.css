@@ -1928,7 +1928,7 @@ footer {
 }
 .courses-card-preschool {
   border-radius: 30px;
-  padding: 40px 42px;
+  padding: 40px 32px 40px 42px;
   background: #fff;
   width: calc((100% / 3) - 20px);
   position: relative;
@@ -1949,7 +1949,7 @@ footer {
 .courses-card-preschool__title {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 120%;
   color: #000;
   margin: 40px 0 20px;
