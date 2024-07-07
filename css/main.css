@@ -163,6 +163,7 @@ footer {
 .first-block-blue-bg-lvl-up {
   margin: 30px 0 120px;
 }
+
 .first-block-blue-bg-overflow {
   width: 100%;
   height: 100%;
@@ -1643,7 +1644,8 @@ footer {
   justify-content: space-between;
   border-radius: 30px;
   padding: 28px 25px;
-  background: linear-gradient(321deg, #087dff 0%, #060c47 100%);
+  /* background: linear-gradient(321deg, #087dff 0%, #060c47 100%); */
+  background: #003acb;
   position: relative;
   height: 474px;
   background-position: center;
