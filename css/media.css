@@ -55,6 +55,9 @@
   .last-vebinar-preview-card {
     width: calc(50% - 15px);
   }
+  .about-bg-img {
+    right: -300px;
+  }
 }
 @media (max-width: 1600px) {
   .white-zone-calendar-home {
@@ -77,6 +80,12 @@
   }
   .news-absolut {
     bottom: 0;
+  }
+  .about-card {
+    width: 360px;
+  }
+  .ways-second-container-about {
+    width: fit-content;
   }
 }
 
@@ -188,6 +197,9 @@
     scale: 0.6;
     bottom: -20%;
     right: -30%;
+  }
+  .team-card {
+    width: 360px;
   }
 }
 @media (max-width: 1100px) {
@@ -398,6 +410,31 @@
   .text-page__title {
     text-align: left;
   }
+  .about-bg-img {
+    display: block;
+    right: -400px;
+
+    scale: 0.45;
+    bottom: -250px;
+  }
+  .about-img-1 {
+    display: none;
+  }
+  .white-bg-about {
+    background: unset;
+    border-radius: 0;
+    padding: 0;
+  }
+  .about-sertificate-bg {
+    background: #fff;
+    width: 357px;
+  }
+  .sertificates-container-about {
+    gap: 24px;
+  }
+  .team-secton {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 900px) {
   .third-fly-element {
@@ -520,10 +557,12 @@
   .courses-card-preschool {
     width: 100%;
   }
-  .vebinar-card__date {
+  .vebinar-card__date,
+  .team__ul {
     font-size: 16px;
   }
-  .vebinar-card__title {
+  .vebinar-card__title,
+  .team__name {
     font-size: 18px;
   }
   .vebinar-card__vhite-btn {
@@ -566,6 +605,15 @@
   }
   .text-page__main-text,
   .text-page__small-title {
+    font-size: 16px;
+  }
+  .second-section-about-title {
+    font-size: 28px;
+  }
+  .ovner__name {
+    font-size: 18px;
+  }
+  .ovner__priority {
     font-size: 16px;
   }
 }
@@ -648,7 +696,8 @@
   .modal-buy-btn {
     font-size: 18px;
   }
-  .modal-price {
+  .modal-price,
+  .grow-box__year {
     font-size: 20px;
   }
   .news-container__block {
@@ -663,6 +712,12 @@
   }
   .news-container__big-block {
     height: 200px;
+  }
+  .blue-line {
+    top: 91px;
+  }
+  .four-section-about {
+    gap: 30px;
   }
 }
 @media (max-width: 700px) {
@@ -890,6 +945,21 @@
   .text-page-first-section {
     margin: 0 0 50px 0;
   }
+  .about-copied-title {
+    font-size: 28px;
+  }
+  .about-copied-subtitle {
+    font-size: 18px;
+  }
+  .about-card {
+    margin-top: 0;
+  }
+  .grow-overflow-container {
+    margin-top: 24px;
+  }
+  .sertificates__card__img_about {
+    height: 194px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -953,5 +1023,11 @@
   }
   .blue-bg-courses-text-ways {
     margin: 45px 24px;
+  }
+  .about-bg-img {
+    right: -500px;
+  }
+  .about__img img {
+    width: auto;
   }
 }

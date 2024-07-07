@@ -3004,3 +3004,236 @@ footer {
   font-size: 20px;
   margin-top: 30px;
 }
+.about-bg-img {
+  right: 0;
+}
+
+.about-img-1 {
+  right: 32%;
+  top: 50%;
+}
+.about-img-2 {
+  left: 90%;
+  top: 20%;
+}
+
+.about-second-section {
+  margin: 160px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-about-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #000;
+  max-width: 912px;
+}
+.ovner-card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 47px;
+}
+
+.ovner__name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #003acb;
+}
+.ovner__priority {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #40444e;
+  margin-top: 12px;
+}
+.about-copied-subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+}
+.about-copied-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #000;
+}
+.about-card {
+  height: unset;
+  width: calc(25% - 22.5px);
+}
+.about__img {
+  height: 170px;
+}
+.about-container-second-overflow {
+  margin-top: 30px;
+}
+.grove-section {
+}
+.grow-box__bubble-hidden {
+  height: 97px;
+  display: flex;
+  align-items: center;
+}
+.grow-overflow-container {
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 30px;
+}
+.grow-overflow-container::-webkit-scrollbar {
+  display: none;
+}
+.grow-container {
+  display: flex;
+  gap: 36px;
+  position: relative;
+  width: fit-content;
+}
+.grow-box {
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.grow-box__year {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: #003acb;
+}
+.grow-box__bubble-1 {
+  /* background: #f4f4f4; */
+  border: 12px solid #f4f4f4;
+  border-radius: 50%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grow-box__bubble-2 {
+  width: 73px;
+  height: 73px;
+  background: #81a5ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grow-box__bubble-3 {
+  width: 45px;
+  height: 45px;
+  background: #003acb;
+  border-radius: 50%;
+}
+.grow-box__count {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #003acb;
+}
+.grow-box__discription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #40444e;
+}
+.blue-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 105px;
+  background-color: #81a5ff;
+  z-index: -1;
+}
+
+.about-grey-block {
+  background: unset;
+}
+.white-bg-about {
+  background: #fff;
+  border-radius: 30px;
+  padding: 50px 37px 80px;
+}
+
+.about-sertificate-bg {
+  background: #f4f4f4;
+  border-radius: 15px;
+  width: 400px;
+  height: 250px;
+}
+.sertificates__card_about {
+  width: 400px;
+}
+.sertificates__card_discription_about {
+  text-align: center;
+}
+.sertificates-container-about {
+  gap: 55px;
+}
+
+.team-container-owerflow {
+  width: 100%;
+  overflow-x: scroll;
+}
+.team-container-owerflow::-webkit-scrollbar {
+  display: none;
+}
+.team-container {
+  display: flex;
+  gap: 30px;
+  width: fit-content;
+}
+.team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc(25% - 22.5px);
+}
+.teat__avatar img {
+  object-fit: cover;
+  width: 100%;
+}
+.team__name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #003acb;
+}
+.team__ul {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #40444e;
+}
+.team__li {
+  margin-left: 20px;
+}
+.team__li::marker {
+  color: #003acb;
+}
+.team__li:not(:nth-child(1)) {
+  margin-top: 20px;
+}
+.team-secton {
+  margin-bottom: 120px;
+}
