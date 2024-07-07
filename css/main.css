@@ -1014,7 +1014,9 @@ footer {
   right: 240px;
   bottom: 0;
 }
-
+.preschool-absolute-man {
+  right: 74px;
+}
 .ways-first-discription {
   width: 50%;
 }
@@ -1936,6 +1938,13 @@ footer {
   padding: 15px 30px;
   background: #f4f4f4;
   width: fit-content;
+
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
 }
 .courses-card-preschool__title {
   font-family: var(--font-family);
@@ -1963,6 +1972,12 @@ footer {
   border-radius: 100px;
   padding: 15px 27px;
   width: fit-content;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
 }
 .courses-card-preschool__first-gray-text,
 .courses-card-preschool__second-gray-text {
