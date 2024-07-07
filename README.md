@@ -24,6 +24,8 @@
 
 [deploy article mini page](https://ddonec.github.io/TSNOI/article-mini.html)
 
+[deploy about us](https://ddonec.github.io/TSNOI/about-us.html)
+
 [deploy privacy politic](https://ddonec.github.io/TSNOI/privacy.html)
 
 [deploy oferta](https://ddonec.github.io/TSNOI/oferta.html)
