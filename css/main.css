@@ -2352,6 +2352,10 @@ footer {
   border-radius: 15px;
   padding: 18px 30px;
 }
+.programm-info__btn:hover {
+  background: #003acb;
+  color: white;
+}
 .programm-info__right {
   width: calc(50% - 15px);
   background-image: url(../assets/content/programm-info-bg.png);
