@@ -134,7 +134,7 @@ footer {
 .first-block-blue-bg {
   height: 736px;
   border-radius: 30px;
-  margin: 112px 0 187px;
+  margin: 112px 0 160px;
 
   background-image: url(../assets/content/dots-bg.png),
     linear-gradient(321deg, #087dff 0%, #060c47 100%);
@@ -1098,7 +1098,7 @@ footer {
   display: flex;
   gap: 7px;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 41px;
 }
 .arrows-for-ways__left,
 .arrows-for-ways__right {
@@ -1158,8 +1158,9 @@ footer {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  max-width: 600px;
   margin: 40px 0;
+  max-height: 121px;
+  overflow: hidden;
 }
 .learning-big-card__tab {
   border: 1px solid #d9d9d9;
