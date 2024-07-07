@@ -2594,6 +2594,7 @@ footer {
   background: #fff;
   display: flex;
   padding: 30px 30px 30px 40px;
+  margin-top: 120px;
 }
 .youtube-left {
   display: flex;
@@ -2626,6 +2627,11 @@ footer {
   font-size: 24px;
   line-height: 130%;
   color: #fff;
+}
+.yiotube-link-btn:hover {
+  color: white;
+  background: #000;
+  cursor: pointer;
 }
 .youtube-right {
   width: 50%;
@@ -2683,6 +2689,10 @@ footer {
   right: 100px;
   top: 43px;
 }
+.close-btn:hover {
+  cursor: pointer;
+  background: #000;
+}
 .modal-preview {
   position: relative;
   width: 100%;
@@ -2717,6 +2727,10 @@ footer {
   font-size: 24px;
   line-height: 130%;
   color: #fff;
+}
+.modal-buy-btn:hover {
+  background: #000;
+  cursor: pointer;
 }
 .modal-price {
   font-family: var(--font-family);

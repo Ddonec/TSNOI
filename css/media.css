@@ -383,7 +383,8 @@
   .youtube-logo-absolute {
     height: 100px;
   }
-  .last-vebinars-section {
+  .last-vebinars-section,
+  .youtube-section-knowledge {
     margin-top: 50px;
   }
   .news-absolut,
