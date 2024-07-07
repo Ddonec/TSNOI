@@ -3190,9 +3190,16 @@ footer {
 }
 
 .team-container-owerflow {
+  width: 100%;
+  overflow-x: scroll;
+}
+.team-container-owerflow::-webkit-scrollbar {
+  display: none;
 }
 .team-container {
   display: flex;
+  gap: 30px;
+  width: fit-content;
 }
 .team-card {
   display: flex;
@@ -3200,7 +3207,9 @@ footer {
   gap: 30px;
   width: calc(25% - 22.5px);
 }
-.teat__avatar {
+.teat__avatar img {
+  object-fit: cover;
+  width: 100%;
 }
 .team__name {
   font-family: var(--font-family);
@@ -3224,4 +3233,7 @@ footer {
 }
 .team__li:not(:nth-child(1)) {
   margin-top: 20px;
+}
+.team-secton {
+  margin-bottom: 120px;
 }

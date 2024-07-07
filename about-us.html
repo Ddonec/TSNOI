@@ -574,7 +574,7 @@
         </script>
       </section>
 
-      <section class="standart-margin-section">
+      <section class="standart-margin-section team-secton">
         <h2 class="standart_title">Новости и статьи</h2>
         <div class="tabs-last-vebinars-overflow">
           <div class="tabs-last-vebinars">
@@ -615,7 +615,7 @@
             </div>
             <div class="team-card">
               <div class="teat__avatar">
-                <img src="./assets/content/team-1.png" alt="" />
+                <img src="./assets/content/team-2.png" alt="" />
               </div>
               <div class="team__name">Иванов Алексей С.</div>
               <ul class="team__ul">
@@ -628,7 +628,7 @@
             </div>
             <div class="team-card">
               <div class="teat__avatar">
-                <img src="./assets/content/team-1.png" alt="" />
+                <img src="./assets/content/team-3.png" alt="" />
               </div>
               <div class="team__name">Скворцова Александра О.</div>
               <ul class="team__ul">
@@ -641,7 +641,7 @@
             </div>
             <div class="team-card">
               <div class="teat__avatar">
-                <img src="./assets/content/team-1.png" alt="" />
+                <img src="./assets/content/team-4.png" alt="" />
               </div>
               <div class="team__name">Мишутин Владислав В.</div>
               <ul class="team__ul">
@@ -654,6 +654,71 @@
             </div>
           </div>
         </div>
+
+        <div class="sertificates-arrows">
+          <div class="sertificates-arrows__prew team_prew">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 19L8 12L15 5"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="sertificates-arrows__next team_next">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 5L16 12L9 19"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <script>
+          const overflowContaine = document.querySelector(
+            ".team-container-owerflow"
+          );
+          const containe = document.querySelector(".team-container");
+          const leftArro = document.querySelector(".team_prew");
+          const rightArro = document.querySelector(".team_next");
+
+          let scrollAmoun = window.innerWidth - 30;
+
+          leftArro.addEventListener("click", function () {
+            overflowContaine.scrollBy({
+              left: -scrollAmount,
+              behavior: "smooth",
+            });
+          });
+
+          rightArro.addEventListener("click", function () {
+            overflowContaine.scrollBy({
+              left: scrollAmount,
+              behavior: "smooth",
+            });
+          });
+
+          window.addEventListener("resize", function () {
+            scrollAmount = window.innerWidth - 30;
+          });
+        </script>
       </section>
 
       <section class="reviews-of-students-section">
