@@ -496,6 +496,15 @@
               Забронировать место сейчас
             </div>
           </div>
+          <script>
+            const buttonContainer = document.querySelector(
+              ".middle-section-ways__button-container"
+            );
+
+            buttonContainer.addEventListener("click", function () {
+              this.classList.toggle("active");
+            });
+          </script>
         </div>
       </section>
       <section class="white-blocks-section-ways">
