@@ -960,6 +960,13 @@
   .sertificates__card__img_about {
     height: 194px;
   }
+  .button-contact-us {
+    width: unset;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
