@@ -2550,6 +2550,7 @@ footer {
   font-size: 20px;
   line-height: 130%;
   color: #40444e;
+  margin-top: -15px;
 }
 .last-vebinar-preview-card__btn-area {
   display: flex;
