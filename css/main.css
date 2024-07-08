@@ -3367,3 +3367,15 @@ footer {
 .checkbox-agree-container__text {
   margin-left: 20px;
 }
+.show-more-btn-home {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+  border-radius: 15px;
+  padding: 18px 30px;
+  border: none;
+  background: #003acb;
+  display: none;
+}
