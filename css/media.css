@@ -697,7 +697,8 @@
   .modal-subtitle,
   .contacts-footer__city,
   .contacts-footer__number,
-  .footer-link-list__link a {
+  .footer-link-list__link a,
+  .white-calendar__text {
     font-size: 16px;
   }
   .modal-white-box {
@@ -754,6 +755,7 @@
   }
   .four-section-home {
     position: relative;
+    margin-bottom: 122px;
   }
   .four-s-title-box__mounth {
     position: absolute;
@@ -764,6 +766,13 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+  .way-template-s {
+    gap: 30px;
+  }
+  .way-template-banner {
+    margin-bottom: 50px;
+    margin-top: 0;
   }
   .logo-and-s-w-footer img {
     width: 132px;
@@ -990,6 +999,16 @@
   }
   .advantages-cards-container > div:nth-child(n + 6) {
     display: none;
+  }
+  .third-s-title-box {
+    gap: 16px;
+  }
+  .white-zone-calendar-home {
+    margin-top: 24px;
+    padding: 24px 20px;
+  }
+  .articles-prewiew-box {
+    margin-top: 17px;
   }
 }
 @media (max-width: 500px) {
