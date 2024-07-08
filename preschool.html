@@ -67,7 +67,7 @@
             />
             <img
               src="./assets/content/preschool-bg-absolute.png"
-              class="ways-img-bg"
+              class="ways-img-bg preschool-absolute-man"
             />
             <div class="blue-bg-courses-text-ways">
               <div class="blue-bg-courses__button">
@@ -543,10 +543,15 @@
                 <input
                   class="checkbox-agree-container__input"
                   type="checkbox"
+                  id="agree"
+                  checked
                 />
-                <p class="checkbox-agree-container__text">
-                  Я соглашаюсь с политикой конфиденциальности
-                </p>
+                <label class="checkbox-agree-container__label" for="agree">
+                  <div class="checkbox"></div>
+                  <p class="checkbox-agree-container__text">
+                    Я соглашаюсь с политикой конфиденциальности
+                  </p>
+                </label>
               </div>
               <button class="fos-box_btn-agree">Записаться</button>
             </form>
@@ -827,8 +832,9 @@
         </ul>
       </div>
       <div class="license-footer">
-        Copyright © 2015 - 2024 Центр непрерывного образования и инноваций
+        Copyright © 2015 - 2024 <span class="license-footer__text">Центр непрерывного образования и инноваций</span>
       </div>
+      
       <ul class="dottet-list-footer">
         <li class="dottet__text"><a href="">Сведения об организации</a></li>
         <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>

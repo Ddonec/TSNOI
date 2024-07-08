@@ -383,7 +383,8 @@
   .youtube-logo-absolute {
     height: 100px;
   }
-  .last-vebinars-section {
+  .last-vebinars-section,
+  .youtube-section-knowledge {
     margin-top: 50px;
   }
   .news-absolut,
@@ -434,6 +435,9 @@
   }
   .team-secton {
     margin-bottom: 50px;
+  }
+  footer {
+    row-gap: 30px;
   }
 }
 @media (max-width: 900px) {
@@ -616,6 +620,9 @@
   .ovner__priority {
     font-size: 16px;
   }
+  .learning-big-card__tabs {
+    max-height: 111px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -687,13 +694,18 @@
     font-size: 28px;
   }
   .modal-white__discription,
-  .modal-subtitle {
+  .modal-subtitle,
+  .contacts-footer__city,
+  .contacts-footer__number,
+  .footer-link-list__link a,
+  .white-calendar__text {
     font-size: 16px;
   }
   .modal-white-box {
     padding: 24px 15px;
   }
-  .modal-buy-btn {
+  .modal-buy-btn,
+  .footer-link-list__title {
     font-size: 18px;
   }
   .modal-price,
@@ -719,6 +731,13 @@
   .four-section-about {
     gap: 30px;
   }
+  .p-one-img-1,
+  .p-one-img-2 {
+    display: none;
+  }
+  .license-footer__text {
+    display: block;
+  }
 }
 @media (max-width: 700px) {
   header,
@@ -736,6 +755,7 @@
   }
   .four-section-home {
     position: relative;
+    margin-bottom: 122px;
   }
   .four-s-title-box__mounth {
     position: absolute;
@@ -746,6 +766,13 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+  .way-template-s {
+    gap: 30px;
+  }
+  .way-template-banner {
+    margin-bottom: 50px;
+    margin-top: 0;
   }
   .logo-and-s-w-footer img {
     width: 132px;
@@ -959,6 +986,29 @@
   }
   .sertificates__card__img_about {
     height: 194px;
+  }
+  .button-contact-us {
+    width: unset;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .show-more-btn-home {
+    display: block;
+  }
+  .advantages-cards-container > div:nth-child(n + 6) {
+    display: none;
+  }
+  .third-s-title-box {
+    gap: 16px;
+  }
+  .white-zone-calendar-home {
+    margin-top: 24px;
+    padding: 24px 20px;
+  }
+  .articles-prewiew-box {
+    margin-top: 17px;
   }
 }
 @media (max-width: 500px) {
