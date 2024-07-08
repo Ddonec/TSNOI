@@ -436,6 +436,9 @@
   .team-secton {
     margin-bottom: 50px;
   }
+  footer {
+    row-gap: 30px;
+  }
 }
 @media (max-width: 900px) {
   .third-fly-element {
@@ -691,13 +694,17 @@
     font-size: 28px;
   }
   .modal-white__discription,
-  .modal-subtitle {
+  .modal-subtitle,
+  .contacts-footer__city,
+  .contacts-footer__number,
+  .footer-link-list__link a {
     font-size: 16px;
   }
   .modal-white-box {
     padding: 24px 15px;
   }
-  .modal-buy-btn {
+  .modal-buy-btn,
+  .footer-link-list__title {
     font-size: 18px;
   }
   .modal-price,
@@ -726,6 +733,9 @@
   .p-one-img-1,
   .p-one-img-2 {
     display: none;
+  }
+  .license-footer__text {
+    display: block;
   }
 }
 @media (max-width: 700px) {

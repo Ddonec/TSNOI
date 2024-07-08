@@ -651,6 +651,11 @@ footer {
   height: 16px;
 }
 .license-footer {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #333;
 }
 .footer-column-1,
 .footer-column-2,
@@ -2817,6 +2822,13 @@ footer {
   position: absolute;
   bottom: 31px;
   right: 33px;
+
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
 }
 .news-container__1 {
   background-image: url(../assets/content/news-container_1.png);
