@@ -1010,6 +1010,10 @@
   .articles-prewiew-box {
     margin-top: 17px;
   }
+  .sertificates__card-three {
+    width: 360px;
+    min-width: unset;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {

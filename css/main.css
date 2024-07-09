@@ -1805,6 +1805,11 @@ footer {
   width: 100%;
 }
 
+.sertificates__card-three {
+  width: calc(((100vw - 80px) / 3) - 20px);
+  min-width: 450px;
+}
+
 .sertificates-arrows {
   display: none;
   gap: 7px;
