@@ -3238,9 +3238,10 @@ footer {
 }
 .blue-line {
   position: absolute;
-  width: 100%;
+  width: calc(100% - 100px);
   height: 2px;
   top: 105px;
+  left: 100px;
   background-color: #81a5ff;
   z-index: -1;
 }
@@ -3306,11 +3307,23 @@ footer {
   line-height: 140%;
   color: #40444e;
 }
+
 .team__li {
-  margin-left: 20px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px; /* Добавляем отступ для кастомного маркера */
 }
-.team__li::marker {
-  color: #003acb;
+
+.team__li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #003acb; /* Цвет точки */
+  border-radius: 50%; /* Круглая точка */
+  transform: translateY(-50%);
 }
 .team__li:not(:nth-child(1)) {
   margin-top: 20px;
