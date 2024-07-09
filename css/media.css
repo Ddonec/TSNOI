@@ -995,7 +995,8 @@
     justify-content: center;
   }
   .show-more-btn-home {
-    display: block;
+    display: flex;
+    gap: 10px;
   }
   .advantages-cards-container > div:nth-child(n + 6) {
     display: none;
@@ -1013,6 +1014,9 @@
   .sertificates__card-three {
     width: 360px;
     min-width: unset;
+  }
+  .advantages-block {
+    gap: 16px;
   }
 }
 @media (max-width: 500px) {

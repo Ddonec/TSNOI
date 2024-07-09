@@ -3402,4 +3402,7 @@ footer {
   border: none;
   background: #003acb;
   display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
