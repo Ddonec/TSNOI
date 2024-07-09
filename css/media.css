@@ -838,6 +838,7 @@
   .first-block-blue-bg-ways {
     height: fit-content;
     margin: 0;
+    background-position: left;
   }
   .arrows-for-ways-second-container {
     justify-content: end;
@@ -889,7 +890,8 @@
   .sertificates__card_white {
     height: 222px;
   }
-  .arrows-lvl-up-mobile {
+  .arrows-lvl-up-mobile,
+  .arrows-for-ways-second-container {
     display: flex;
     margin-top: 16px;
   }
@@ -962,7 +964,8 @@
     font-size: 28px;
   }
   .article-container__paragpaph,
-  .article-container__white-box {
+  .article-container__white-box,
+  .learning-big-card__subtitle {
     font-size: 16px;
   }
   .article-container__blue-btn {
@@ -1016,10 +1019,13 @@
     width: 360px;
     min-width: unset;
   }
-  .advantages-block {
+  .advantages-block,
+  .way-of-learnong-small-comtainer {
     gap: 16px;
   }
-  .white-way-block__button {
+  .white-way-block__button,
+  .learning-big-card__button {
+    gap: 10px;
     font-size: 18px;
   }
 }
@@ -1091,5 +1097,9 @@
   }
   .about__img img {
     width: auto;
+  }
+  .middle-section-ways__button,
+  .middle-section-ways__title-button {
+    padding: 16px 10px;
   }
 }
