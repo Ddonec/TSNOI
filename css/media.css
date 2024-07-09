@@ -1018,6 +1018,9 @@
   .advantages-block {
     gap: 16px;
   }
+  .white-way-block__button {
+    font-size: 18px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
