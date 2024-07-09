@@ -844,6 +844,7 @@
   }
   .ways-second-card {
     margin-top: 50px;
+    height: unset;
   }
   .ways-card__title {
     font-size: 25px;
