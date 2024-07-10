@@ -490,13 +490,13 @@
           </h3>
           <div class="middle-section-ways__button-container">
             <div class="middle-section-ways__title-button">
-              График обучения 2024 г.
+              График обучения 2024&nbsp;г.
             </div>
             <div class="middle-section-ways__button">
               Забронировать место сейчас
             </div>
           </div>
-          <script>
+          <!-- <script>
             const buttonContainer = document.querySelector(
               ".middle-section-ways__button-container"
             );
@@ -504,7 +504,7 @@
             buttonContainer.addEventListener("click", function () {
               this.classList.toggle("active");
             });
-          </script>
+          </script> -->
         </div>
       </section>
       <section class="white-blocks-section-ways">
@@ -718,7 +718,6 @@
                   class="checkbox-agree-container__input"
                   type="checkbox"
                   id="agree"
-                  checked
                 />
                 <label class="checkbox-agree-container__label" for="agree">
                   <div class="checkbox"></div>
@@ -882,9 +881,9 @@
           const scrollAmount = calculateScrollAmount();
 
           // Event listener for resizing the window
-          window.addEventListener("resize", () => {
-            scrollAmount = calculateScrollAmount();
-          });
+          // window.addEventListener("resize", () => {
+          //   scrollAmount = calculateScrollAmount();
+          // });
 
           // Scroll left or right by the calculated amount
           const scrollContent = (direction) => {
@@ -1125,9 +1124,12 @@
         </ul>
       </div>
       <div class="license-footer">
-        Copyright © 2015 - 2024 <span class="license-footer__text">Центр непрерывного образования и инноваций</span>
+        Copyright © 2015 - 2024
+        <span class="license-footer__text"
+          >Центр непрерывного образования и инноваций</span
+        >
       </div>
-      
+
       <ul class="dottet-list-footer">
         <li class="dottet__text"><a href="">Сведения об организации</a></li>
         <li class="dottet__dot"><img src="./assets/icon/dot.svg" alt="" /></li>

@@ -856,7 +856,6 @@ footer {
   font-size: 20px;
   line-height: 130%;
   color: #40444e;
-  margin-top: 20px;
 }
 .white-way-block__button {
   background: #003acb;
@@ -1280,6 +1279,11 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.middle-section-ways__title-button:hover {
+  background-color: #003acb;
+  color: white;
+  cursor: pointer;
 }
 
 .middle-section-ways__button-container.active
@@ -1775,7 +1779,6 @@ footer {
 .sertificates__card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   max-width: 594px;
 }
 .sertificates__card_white {
@@ -1784,6 +1787,7 @@ footer {
   height: 370px;
   background: #fff;
   position: relative;
+  margin-bottom: 20px;
 }
 .sertificates__card__img {
   position: absolute;
@@ -1798,6 +1802,11 @@ footer {
   line-height: 130%;
   color: #000;
   width: 100%;
+}
+
+.sertificates__card-three {
+  width: calc(((100vw - 80px) / 3) - 20px);
+  min-width: 450px;
 }
 
 .sertificates-arrows {
@@ -3228,9 +3237,10 @@ footer {
 }
 .blue-line {
   position: absolute;
-  width: 100%;
+  width: calc(100% - 100px);
   height: 2px;
   top: 105px;
+  left: 100px;
   background-color: #81a5ff;
   z-index: -1;
 }
@@ -3296,11 +3306,23 @@ footer {
   line-height: 140%;
   color: #40444e;
 }
+
 .team__li {
-  margin-left: 20px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px; /* Добавляем отступ для кастомного маркера */
 }
-.team__li::marker {
-  color: #003acb;
+
+.team__li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #003acb; /* Цвет точки */
+  border-radius: 50%; /* Круглая точка */
+  transform: translateY(-50%);
 }
 .team__li:not(:nth-child(1)) {
   margin-top: 20px;
@@ -3360,7 +3382,7 @@ footer {
   left: 0;
   width: 24px;
   height: 25px;
-  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMy41IiB5PSIzLjY2NTA0IiB3aWR0aD0iMTciIGhlaWdodD0iMTciIHJ4PSI0LjUiIGZpbGw9ImJsdWUiIHN0cm9rZT0iYmx1ZSIvPgo8cmVjdCB4PSIwLjUiIHk9IjAuNjY1MDM5IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSI0LjUiIHN0cm9rZT0iYmx1ZSIvPgo8L3N2Zz4=")
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMy41IiB5PSIzLjY2NTA0IiB3aWR0aD0iMTciIGhlaWdodD0iMTciIHJ4PSI0LjUiIGZpbGw9IiMwMDNhY2IiIHN0cm9rZT0iIzAwM2FjYiIvPgo8cmVjdCB4PSIwLjUiIHk9IjAuNjY1MDM5IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSI0LjUiIHN0cm9rZT0iIzAwM2FjYiIvPgo8L3N2Zz4=")
     no-repeat center center;
   background-size: contain;
 }
@@ -3379,4 +3401,7 @@ footer {
   border: none;
   background: #003acb;
   display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
