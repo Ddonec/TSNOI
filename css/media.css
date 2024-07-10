@@ -1054,6 +1054,12 @@
   .sertificates__card_discription {
     font-size: 16px;
   }
+  .first-block-blue-bg {
+    background-position: left;
+  }
+  .mt-0 {
+    margin-top: 0;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
