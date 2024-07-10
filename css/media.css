@@ -1060,6 +1060,12 @@
   .mt-0 {
     margin-top: 0;
   }
+  .review-text-3 {
+    height: unset;
+  }
+  .review-card__middle-text {
+    margin: 24px 0 32px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
