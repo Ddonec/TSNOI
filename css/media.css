@@ -1084,6 +1084,9 @@
   .white-blocks-container {
     gap: 16px;
   }
+  .modal-white-box {
+    margin-top: 16px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
