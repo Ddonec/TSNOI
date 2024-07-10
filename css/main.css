@@ -856,7 +856,6 @@ footer {
   font-size: 20px;
   line-height: 130%;
   color: #40444e;
-  margin-top: 20px;
 }
 .white-way-block__button {
   background: #003acb;
@@ -3383,7 +3382,7 @@ footer {
   left: 0;
   width: 24px;
   height: 25px;
-  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMy41IiB5PSIzLjY2NTA0IiB3aWR0aD0iMTciIGhlaWdodD0iMTciIHJ4PSI0LjUiIGZpbGw9ImJsdWUiIHN0cm9rZT0iYmx1ZSIvPgo8cmVjdCB4PSIwLjUiIHk9IjAuNjY1MDM5IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSI0LjUiIHN0cm9rZT0iYmx1ZSIvPgo8L3N2Zz4=")
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMy41IiB5PSIzLjY2NTA0IiB3aWR0aD0iMTciIGhlaWdodD0iMTciIHJ4PSI0LjUiIGZpbGw9IiMwMDNhY2IiIHN0cm9rZT0iIzAwM2FjYiIvPgo8cmVjdCB4PSIwLjUiIHk9IjAuNjY1MDM5IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSI0LjUiIHN0cm9rZT0iIzAwM2FjYiIvPgo8L3N2Zz4=")
     no-repeat center center;
   background-size: contain;
 }

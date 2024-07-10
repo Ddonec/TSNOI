@@ -290,7 +290,8 @@
   .white-way-block__title {
     font-size: 28px;
   }
-  .white-way-block__subtitle {
+  .white-way-block__subtitle,
+  .ways-tabs__grey-tab {
     font-size: 16px;
   }
   .shop-img-2,
@@ -341,6 +342,9 @@
   .fly-bottom-section-ways-page {
     padding: 24px;
     margin: 50px 0;
+    background-position: left;
+    background-image: url(../assets/content/mobile-dots.png),
+      linear-gradient(321deg, #087dff 0%, #060c47 100%);
   }
   .courses-cards-section {
     margin: 50px 0;
@@ -1028,6 +1032,13 @@
     gap: 10px;
     font-size: 18px;
   }
+  .fos-box_btn-agree {
+    height: 60px;
+    padding: unset;
+  }
+  .fos-box_subtitle {
+    margin-bottom: 14px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
@@ -1101,5 +1112,13 @@
   .middle-section-ways__button,
   .middle-section-ways__title-button {
     padding: 16px 10px;
+  }
+  .white-way-block__slider__img-1,
+  .white-way-block__slider__img-1,
+  .white-way-block__slider__img-1,
+  .white-way-block__slider__images-container,
+  .white-way-block__slider__overflow-zone {
+    height: 164px;
+    width: 116px;
   }
 }
