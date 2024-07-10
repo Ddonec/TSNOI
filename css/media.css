@@ -1094,6 +1094,18 @@
   .modal-white-box {
     margin-top: 16px;
   }
+  .about-second-section {
+    margin: 50px 0;
+  }
+  .ways-card__title.about-copied-title {
+    width: 80%;
+  }
+  .order-mob {
+    order: 1;
+  }
+  .m-mob-24 {
+    margin-bottom: 24px;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
