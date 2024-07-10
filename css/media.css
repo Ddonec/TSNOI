@@ -674,9 +674,15 @@
     width: calc(100%);
     padding: 24px;
   }
-  .review-card__white-bottom {
+  .review-card__white-bottom,
+  .article-avtar__box_1.news-container__white-text {
     font-size: 14px;
     padding: 15px 16px;
+  }
+  .article-avtar__box_1,
+  .article-avtar__box_2 {
+    transform: translate(0);
+    right: 0;
   }
   .text-top-block__right-list_name {
     font-size: 16px;
@@ -986,11 +992,26 @@
   .about-copied-title {
     font-size: 28px;
   }
-  .about-copied-subtitle {
+  .about-copied-subtitle,
+  .programm-info__text {
     font-size: 18px;
+  }
+  .sertificates__card-three {
+    gap: 0;
+  }
+  .vebinar-tab-131 {
+    width: 131px;
   }
   .about-card {
     margin-top: 0;
+  }
+  .tab-last-vebinar {
+    font-size: 14px;
+    padding: 15px 16px;
+  }
+  .yiotube-link-btn {
+    font-size: 18px;
+    gap: 10px;
   }
   .grow-overflow-container {
     margin-top: 24px;
@@ -1065,6 +1086,25 @@
   }
   .review-card__middle-text {
     margin: 24px 0 32px;
+  }
+  .white-blocks-container,
+  .news-page-news-container {
+    gap: 16px;
+  }
+  .modal-white-box {
+    margin-top: 16px;
+  }
+  .about-second-section {
+    margin: 50px 0;
+  }
+  .ways-card__title.about-copied-title {
+    width: 80%;
+  }
+  .order-mob {
+    order: 1;
+  }
+  .m-mob-24 {
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 500px) {
