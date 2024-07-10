@@ -642,6 +642,9 @@
   .course-lvl-up-box > .course-ways__card:nth-child(n + 4):nth-child(-n + 11) {
     display: none;
   }
+  .course-ways-box {
+    gap: 16px;
+  }
   .course-lvl-up-card-12 {
     font-size: 30px;
     height: 267px;
@@ -1044,6 +1047,12 @@
   }
   .partners-way-card {
     border-radius: 10px;
+  }
+  .course-ways__card-11 {
+    height: 248px;
+  }
+  .sertificates__card_discription {
+    font-size: 16px;
   }
 }
 @media (max-width: 500px) {

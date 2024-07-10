@@ -1779,7 +1779,6 @@ footer {
 .sertificates__card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   max-width: 594px;
 }
 .sertificates__card_white {
@@ -1788,6 +1787,7 @@ footer {
   height: 370px;
   background: #fff;
   position: relative;
+  margin-bottom: 20px;
 }
 .sertificates__card__img {
   position: absolute;
