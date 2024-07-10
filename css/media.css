@@ -877,7 +877,7 @@
     height: 100px;
   }
   .partners-way-image {
-    width: 90%;
+    width: 113px;
   }
   .partners-ways-arrows {
     order: 1;
@@ -1038,6 +1038,12 @@
   }
   .fos-box_subtitle {
     margin-bottom: 14px;
+  }
+  .partners-way-box {
+    gap: 8px;
+  }
+  .partners-way-card {
+    border-radius: 10px;
   }
 }
 @media (max-width: 500px) {
