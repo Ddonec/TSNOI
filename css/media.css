@@ -1106,6 +1106,9 @@
   .m-mob-24 {
     margin-bottom: 24px;
   }
+  .youtube-title {
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   .ways-second-card {
